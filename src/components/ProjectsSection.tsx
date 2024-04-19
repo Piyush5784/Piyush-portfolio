@@ -5,6 +5,7 @@ import mediumImage from "../assets/Medium.png";
 import E_com from "../assets/E-com.png";
 import walletApp from "../assets/Wallet app.webp";
 import GymImage from "../assets/gym.png";
+import Furniro from "../assets/homepageImg.png";
 const ProjectsSection = () => {
   const { setShowMenu } = useContexts();
   return (
@@ -68,12 +69,27 @@ const ProjectsSection = () => {
                 "React Js, ",
                 "Express Js, ",
                 "Tailwind, ",
-                "MongoDB, ",
-                "Hono ",
+                "MongoDB",
               ]}
               img={walletApp}
             />
           </div>
+          {/* <div>
+            <Card
+              url="https://github.com/Piyush5784/Wallet-app"
+              projectName="Digital Craft "
+              frameworksUsed={["HTML, ", "CSS ", "Bootstrap, "]}
+              img={walletApp}
+            />
+          </div>
+          <div>
+            <Card
+              url="https://github.com/Piyush5784/Wallet-app"
+              projectName="Furniro "
+              frameworksUsed={["HTML, ", "CSS, "]}
+              img={Furniro}
+            />
+          </div> */}
         </div>
         <div className="flex justify-center items-center">
           <a
