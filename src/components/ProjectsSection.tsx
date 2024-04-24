@@ -1,11 +1,9 @@
 import { useContexts } from "../Context";
 import { Card } from "./Card";
-
 import mediumImage from "../assets/Medium.png";
 import E_com from "../assets/E-com.png";
 import walletApp from "../assets/Wallet app.webp";
 import GymImage from "../assets/gym.png";
-import Furniro from "../assets/homepageImg.png";
 const ProjectsSection = () => {
   const { setShowMenu } = useContexts();
   return (
