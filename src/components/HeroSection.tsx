@@ -1,5 +1,5 @@
 import { useContexts } from "../Context";
-import img1 from "../assets/ai-cloud-concept-with-robot-arm.jpg";
+import img1 from "../assets/20943592.jpg";
 
 const HeroSection = () => {
   const { setShowMenu } = useContexts();

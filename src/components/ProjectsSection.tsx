@@ -4,6 +4,7 @@ import mediumImage from "../assets/Medium.png";
 import E_com from "../assets/E-com.png";
 import walletApp from "../assets/Wallet app.webp";
 import GymImage from "../assets/gym.png";
+import Gemini from "../assets/Gemini.jpg";
 const ProjectsSection = () => {
   const { setShowMenu } = useContexts();
   return (
@@ -72,20 +73,20 @@ const ProjectsSection = () => {
               img={walletApp}
             />
           </div>
-          {/* <div>
-            <Card
-              url="https://github.com/Piyush5784/Wallet-app"
-              projectName="Digital Craft "
-              frameworksUsed={["HTML, ", "CSS ", "Bootstrap, "]}
-              img={walletApp}
-            />
-          </div>
           <div>
             <Card
-              url="https://github.com/Piyush5784/Wallet-app"
-              projectName="Furniro "
-              frameworksUsed={["HTML, ", "CSS, "]}
-              img={Furniro}
+              url="https://gemini-pro-latest.netlify.app/"
+              projectName="Gemini Pro "
+              frameworksUsed={["React, ", "Tailwind, ", "REST Api"]}
+              img={Gemini}
+            />
+          </div>
+          {/* <div>
+            <Card
+              url="https://github.com/Piyush5784/Business-site"
+              projectName="Digital Craft "
+              frameworksUsed={["HTML, ", "CSS ", "Bootstrap "]}
+              img={Digital}
             />
           </div> */}
         </div>

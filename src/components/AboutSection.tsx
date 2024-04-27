@@ -13,9 +13,12 @@ const AboutSection = () => {
         <p className="p-4 pl-0 text-lg font-semibold">About me</p>
         <p className="font-extrabold text-3xl ">Piyush Jha</p>
         <p className="p-3 pl-0 text-lg font-light">
-          I am a full stack developer from India. I like to convert beautifull
-          designs of website into a fully functional application using the
-          latest tech stack
+          Hi, I'm Piyush, a computer science student born and raised in Assam. I
+          have a strong passion for full stack development and enjoy working
+          with the latest technology stacks to build innovative websites. With a
+          blend of creativity and technical expertise, I strive to create
+          seamless user experiences and bring ideas to life on the web. Let's
+          collaborate and turn your vision into reality!
         </p>
         <p className="text-lg font-semibold mt-10">What I know</p>
         <p className="text-md font-semibold mt-3 mb-2">Frontend</p>
@@ -47,7 +50,7 @@ const AboutSection = () => {
         <div className="pl-1">
           <ButtonType1 text="Docker" ringColor="green" />
           <ButtonType1 text="GIT" ringColor="blue" />
-          <ButtonType1 text="Kubernetes" ringColor="purple" />
+          {/* <ButtonType1 text="Kubernetes" ringColor="purple" /> */}
         </div>
       </div>
     </>
