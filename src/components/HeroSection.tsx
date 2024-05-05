@@ -17,10 +17,11 @@ const HeroSection = () => {
 
         <div className="pl-6 duration-300 ">
           <p className="text-white mt-3 text-3xl font-bold ">
-            Hi , I am a <span className="text-[#7D6AE8] ">full stack</span>{" "}
+            Hello , I am a <span className="text-[#7D6AE8] ">Full stack</span>{" "}
             Developer <br />
             <span className="text-xl font-light">
-              I convert design into fully functional sites
+              I like to craft solid and scalable full stack projects with great
+              user experience
             </span>
           </p>
           <div>
