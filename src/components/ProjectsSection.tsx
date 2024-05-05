@@ -18,7 +18,7 @@ const ProjectsSection = () => {
         <div className="lg:flex lg:flex-wrap lg:items-center  lg:gap-[50px]">
           <div>
             <Card
-              url="https://github.com/Piyush5784/Medium-blog"
+              url="https://medium-blog-dh6d.vercel.app"
               projectName="Medium Blog"
               frameworksUsed={[
                 "React Js, ",
@@ -33,7 +33,7 @@ const ProjectsSection = () => {
           </div>
           <div>
             <Card
-              url="https://github.com/Piyush5784/e-comm-app"
+              url="https://e-comm-app-delta.vercel.app"
               projectName="E-commerce Website"
               frameworksUsed={[
                 "React Js, ",
@@ -48,7 +48,7 @@ const ProjectsSection = () => {
 
           <div>
             <Card
-              url="https://github.com/Piyush5784/GYMER-version2"
+              url="https://gymer-version2-nbbn.vercel.app/"
               projectName="Gymer"
               frameworksUsed={[
                 "React Js, ",
@@ -62,7 +62,7 @@ const ProjectsSection = () => {
           </div>
           <div>
             <Card
-              url="https://github.com/Piyush5784/Wallet-app"
+              url="https://paytm-clone-lac.vercel.app/"
               projectName="Wallet App"
               frameworksUsed={[
                 "React Js, ",
@@ -87,7 +87,7 @@ const ProjectsSection = () => {
               projectName="Digital Craft "
               frameworksUsed={["HTML, ", "CSS ", "Bootstrap "]}
               img={Digital}
-            />
+            />`
           </div> */}
         </div>
         <div className="flex justify-center items-center">
