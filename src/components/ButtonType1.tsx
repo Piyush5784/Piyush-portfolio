@@ -1,7 +1,4 @@
-type ButtonType1Prop = {
-  text: string;
-  ringColor: string;
-};
+import { ButtonType1Prop } from "../lib/Types";
 
 export const ButtonType1 = ({ text, ringColor }: ButtonType1Prop) => {
   return (

@@ -1,12 +1,11 @@
 import { useContexts } from "../Context";
 import { Card } from "./Card";
-import mediumImage from "../assets/Medium.png";
-import E_com from "../assets/E-com.png";
-import walletApp from "../assets/Wallet app.webp";
-import GymImage from "../assets/gym.png";
-import Gemini from "../assets/Gemini.jpg";
+import { productDetails } from "../lib/CardItems";
+import { CardProps } from "../lib/Types";
+
 const ProjectsSection = () => {
   const { setShowMenu } = useContexts();
+
   return (
     <>
       <div
@@ -16,79 +15,19 @@ const ProjectsSection = () => {
       >
         <p className="pt-6 text-2xl font-semibold">Projects</p>
         <div className="lg:flex lg:flex-wrap lg:items-center  lg:gap-[50px]">
-          <div>
-            <Card
-              url="https://medium-blog-dh6d.vercel.app"
-              projectName="Medium Blog"
-              frameworksUsed={[
-                "React Js, ",
-                "PostgresSQL, ",
-                "Tailwind, ",
-                "Cloudflare, ",
-                "Hono, ",
-                "Prisma ",
-              ]}
-              img={mediumImage}
-            />
-          </div>
-          <div>
-            <Card
-              url="https://e-comm-app-delta.vercel.app"
-              projectName="E-commerce Website"
-              frameworksUsed={[
-                "React Js, ",
-                "Typescript, ",
-                "Firebase, ",
-                "Bootstrap, ",
-                "Razorpay ",
-              ]}
-              img={E_com}
-            />
-          </div>
-
-          <div>
-            <Card
-              url="https://gymer-version2-nbbn.vercel.app/"
-              projectName="Gymer"
-              frameworksUsed={[
-                "React Js, ",
-                "Express Js, ",
-                "Node Js, ",
-                "MongoDb, ",
-                "Razorpay, ",
-              ]}
-              img={GymImage}
-            />
-          </div>
-          <div>
-            <Card
-              url="https://paytm-clone-lac.vercel.app/"
-              projectName="Wallet App"
-              frameworksUsed={[
-                "React Js, ",
-                "Express Js, ",
-                "Tailwind, ",
-                "MongoDB",
-              ]}
-              img={walletApp}
-            />
-          </div>
-          <div>
-            <Card
-              url="https://gemini-pro-latest.netlify.app/"
-              projectName="Gemini Pro "
-              frameworksUsed={["React, ", "Tailwind, ", "REST Api"]}
-              img={Gemini}
-            />
-          </div>
-          {/* <div>
-            <Card
-              url="https://github.com/Piyush5784/Business-site"
-              projectName="Digital Craft "
-              frameworksUsed={["HTML, ", "CSS ", "Bootstrap "]}
-              img={Digital}
-            />`
-          </div> */}
+          {productDetails.map((cartDetails: CardProps) => (
+            <>
+              <div>
+                <Card
+                  url={cartDetails.url}
+                  projectName={cartDetails.projectName}
+                  frameworksUsed={cartDetails.frameworksUsed}
+                  sourceCodeUrl={cartDetails.sourceCodeUrl}
+                  img={cartDetails.img}
+                />
+              </div>
+            </>
+          ))}
         </div>
         <div className="flex justify-center items-center">
           <a
