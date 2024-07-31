@@ -22,7 +22,7 @@ export const productDetails = [
   },
   {
     url: "https://gemini-pro-latest.netlify.app/",
-    projectName: "Medium Blog",
+    projectName: "Gemini Pro",
     frameworksUsed: ["React, ", "Tailwind, ", "REST Api"],
     sourceCodeUrl: "https://github.com/Piyush5784/Gemini-Pro",
     img: Gemini,
