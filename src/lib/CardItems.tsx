@@ -62,11 +62,11 @@ export const productDetails = [
     sourceCodeUrl: "https://github.com/Piyush5784/Wallet-app",
     img: walletApp,
   },
-  // {
-  //   url: "https://furniro-sable.vercel.app/",
-  //   projectName: "Furniture Selling site",
-  //   frameworksUsed: ["Html ", "CSS ", "JavaScript "],
-  //   sourceCodeUrl: "https://github.com/Piyush5784/Furniro",
-  //   img: Furniro,
-  // },
+  {
+    url: "https://furniro-sable.vercel.app/",
+    projectName: "Furniture Selling site",
+    frameworksUsed: ["Html ", "CSS ", "JavaScript "],
+    sourceCodeUrl: "https://github.com/Piyush5784/Furniro",
+    img: Furniro,
+  },
 ];
