@@ -3,10 +3,25 @@ import E_com from "../assets/E-com.png";
 import walletApp from "../assets/Wallet app.webp";
 import GymImage from "../assets/gym.png";
 import Gemini from "../assets/Gemini.jpg";
+import Furniro from "../assets/Furiture selling site2.png";
+import Plantify from "../assets/plantify2.png";
 
 export const links = ["Home", "About", "Projects", "Connect"];
 
 export const productDetails = [
+  {
+    url: "https://plantify-beige.vercel.app/",
+    projectName: "Plantify (under development)",
+    frameworksUsed: [
+      "Nextjs, ",
+      "Tailwind, ",
+      "Shadcn, ",
+      "Postgres, ",
+      "Prisma ",
+    ],
+    sourceCodeUrl: "https://github.com/Piyush5784/Plantify",
+    img: Plantify,
+  },
   {
     url: "https://e-comm-app-delta.vercel.app",
     projectName: "E-commerce Website",
@@ -65,7 +80,7 @@ export const productDetails = [
   {
     url: "https://furniro-sable.vercel.app/",
     projectName: "Furniture Selling site",
-    frameworksUsed: ["Html ", "CSS ", "JavaScript "],
+    frameworksUsed: ["Html, ", "CSS, ", "JavaScript, "],
     sourceCodeUrl: "https://github.com/Piyush5784/Furniro",
     img: Furniro,
   },

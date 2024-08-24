@@ -17,7 +17,7 @@ const ProjectsSection = () => {
         <div className="lg:flex lg:flex-wrap lg:items-center  lg:gap-[50px]">
           {productDetails.map((cartDetails: CardProps) => (
             <>
-              <div>
+              <div key={cartDetails.projectName}>
                 <Card
                   url={cartDetails.url}
                   projectName={cartDetails.projectName}
