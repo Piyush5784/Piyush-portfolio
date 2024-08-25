@@ -7,11 +7,11 @@ export const Card = ({
   url,
   sourceCodeUrl,
 }: CardProps) => (
-  <div className="mt-7  duration-300 rounded-xl w-[80%] lg:w-[18.5rem] bg-[#B0B0B0]">
+  <div className="mt-7 duration-300 rounded-xl w-[80%] lg:w-[18.5rem] bg-[#B0B0B0]">
     <div className="rounded-t-xl mt-7 w-full">
       <img
         src={img}
-        className="rounded-t-xl  max-h-[250px]"
+        className="rounded-t-xl lg:h-[190px] sm:h-auto"
         alt="Project Image"
       />
     </div>
