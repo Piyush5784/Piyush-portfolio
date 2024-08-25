@@ -10,7 +10,7 @@ export const links = ["Home", "About", "Projects", "Connect"];
 
 export const productDetails = [
   {
-    url: "https://plantify-beige.vercel.app/",
+    url: "https://plantify-zeta.vercel.app/",
     projectName: "Plantify (under development)",
     frameworksUsed: [
       "Nextjs, ",
