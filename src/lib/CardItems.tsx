@@ -10,6 +10,27 @@ export const links = ["Home", "About", "Projects", "Connect"];
 
 export const productDetails = [
   {
+    url: "https://gemini-pro-latest.netlify.app/",
+    projectName: "Gemini Pro",
+    frameworksUsed: ["React, ", "Tailwind, ", "REST Api"],
+    sourceCodeUrl: "https://github.com/Piyush5784/Gemini-Pro",
+    img: Gemini,
+  },
+  {
+    url: "https://medium-blog-dh6d.vercel.app",
+    projectName: "Medium Blog",
+    frameworksUsed: [
+      "React Js, ",
+      "PostgresSQL, ",
+      "Tailwind, ",
+      "Cloudflare, ",
+      "Hono, ",
+      "Prisma ",
+    ],
+    sourceCodeUrl: "https://github.com/Piyush5784/Medium-blog",
+    img: mediumImage,
+  },
+  {
     url: "https://plantify-zeta.vercel.app/",
     projectName: "Plantify (under development)",
     frameworksUsed: [
@@ -34,27 +55,6 @@ export const productDetails = [
     ],
     sourceCodeUrl: "https://github.com/Piyush5784/e-comm-app",
     img: E_com,
-  },
-  {
-    url: "https://gemini-pro-latest.netlify.app/",
-    projectName: "Gemini Pro",
-    frameworksUsed: ["React, ", "Tailwind, ", "REST Api"],
-    sourceCodeUrl: "https://github.com/Piyush5784/Gemini-Pro",
-    img: Gemini,
-  },
-  {
-    url: "https://medium-blog-dh6d.vercel.app",
-    projectName: "Medium Blog",
-    frameworksUsed: [
-      "React Js, ",
-      "PostgresSQL, ",
-      "Tailwind, ",
-      "Cloudflare, ",
-      "Hono, ",
-      "Prisma ",
-    ],
-    sourceCodeUrl: "https://github.com/Piyush5784/Medium-blog",
-    img: mediumImage,
   },
 
   {
