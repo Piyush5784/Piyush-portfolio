@@ -1,14 +1,37 @@
-import mediumImage from "../assets/Medium.png";
 import E_com from "../assets/E-com.png";
+import Furniro from "../assets/Furiture selling site2.png";
+import Gemini from "../assets/Gemini.jpg";
+import JisHomeLandingPage from "../assets/JisHome.jpg";
+import mediumImage from "../assets/Medium.png";
+import NextNotes from "../assets/NextNotes.jpg";
 import walletApp from "../assets/Wallet app.webp";
 import GymImage from "../assets/gym.png";
-import Gemini from "../assets/Gemini.jpg";
-import Furniro from "../assets/Furiture selling site2.png";
 import Plantify from "../assets/plantify2.png";
 
 export const links = ["Home", "About", "Projects", "Connect"];
 
 export const productDetails = [
+  {
+    url: "https://next-notes-9b33-9n8i7tw7b-piyushs-projects-b6f90a7d.vercel.app/",
+    projectName: "NextNotes Nextjs App",
+    frameworksUsed: [
+      "Nextjs, ",
+      "Tailwind, ",
+      "Framer-motion, ",
+      "PostgresSQL, ",
+      "Prisma, ",
+      "Next-Auth",
+    ],
+    sourceCodeUrl: "https://github.com/Piyush5784",
+    img: NextNotes,
+  },
+  {
+    url: "https://jis-home.vercel.app/",
+    projectName: "JisHome landing page",
+    frameworksUsed: ["React, ", "Tailwind, ", "Framer-motion"],
+    sourceCodeUrl: "https://github.com/Piyush5784",
+    img: JisHomeLandingPage,
+  },
   {
     url: "https://gemini-pro-latest.netlify.app/",
     projectName: "Gemini Pro",
