@@ -3,7 +3,6 @@ import Furniro from "../assets/Furiture selling site2.png";
 import Gemini from "../assets/Gemini.jpg";
 import JisHomeLandingPage from "../assets/JisHome.jpg";
 import mediumImage from "../assets/Medium.png";
-import NextNotes from "../assets/NextNotes.jpg";
 import walletApp from "../assets/Wallet app.webp";
 import GymImage from "../assets/gym.png";
 import Plantify from "../assets/plantify2.png";
@@ -11,20 +10,20 @@ import Plantify from "../assets/plantify2.png";
 export const links = ["Home", "About", "Projects", "Connect"];
 
 export const productDetails = [
-  {
-    url: "https://nextnotes-nextjs-app.netlify.app",
-    projectName: "NextNotes Nextjs App",
-    frameworksUsed: [
-      "Nextjs, ",
-      "Tailwind, ",
-      "Framer-motion, ",
-      "PostgresSQL, ",
-      "Prisma, ",
-      "Next-Auth",
-    ],
-    sourceCodeUrl: "https://github.com/Piyush5784",
-    img: NextNotes,
-  },
+  // {
+  //   url: "https://nextnotes-nextjs-app.netlify.app",
+  //   projectName: "NextNotes Nextjs App",
+  //   frameworksUsed: [
+  //     "Nextjs, ",
+  //     "Tailwind, ",
+  //     "Framer-motion, ",
+  //     "PostgresSQL, ",
+  //     "Prisma, ",
+  //     "Next-Auth",
+  //   ],
+  //   sourceCodeUrl: "https://github.com/Piyush5784",
+  //   img: NextNotes,
+  // },
   {
     url: "https://jis-home.vercel.app/",
     projectName: "JisHome landing page",
