@@ -12,7 +12,7 @@ export const links = ["Home", "About", "Projects", "Connect"];
 
 export const productDetails = [
   {
-    url: "https://next-notes-9b33-9n8i7tw7b-piyushs-projects-b6f90a7d.vercel.app/",
+    url: "https://nextnotes-nextjs-app.netlify.app",
     projectName: "NextNotes Nextjs App",
     frameworksUsed: [
       "Nextjs, ",
