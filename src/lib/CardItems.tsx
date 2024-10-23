@@ -25,7 +25,7 @@ export const productDetails = [
   //   img: NextNotes,
   // },
   {
-    url: "https://jis-home.vercel.app/",
+    url: "https://jaininteriorsolution.vercel.app",
     projectName: "JisHome landing page",
     frameworksUsed: ["React, ", "Tailwind, ", "Framer-motion"],
     sourceCodeUrl: "https://github.com/Piyush5784",
