@@ -53,7 +53,7 @@ export const productDetails = [
     img: mediumImage,
   },
   {
-    url: "https://plantify-zeta.vercel.app/",
+    url: "https://plantify-site-7584.netlify.app/",
     projectName: "Plantify (under development)",
     frameworksUsed: [
       "Nextjs, ",
