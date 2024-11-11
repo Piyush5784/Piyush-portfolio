@@ -1,21 +1,22 @@
-import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
-import ProjectsSection from "./components/ProjectsSection";
 import Connect from "./components/Connect";
+import ProjectsSection from "./components/ProjectsSection";
 
 const App = () => {
   return (
     <>
-      <div className="text-white bg-black ">
-        <Navbar />
+      <div className="flex items-center justify-center">
+        <div className="text-white bg-black md:w-[50%] flex flex-col items-center justify-center">
+          {/* <Navbar /> */}
 
-        {/* <HeroSection /> */}
+          {/* <HeroSection /> */}
 
-        <AboutSection />
+          <AboutSection />
 
-        <ProjectsSection />
+          <ProjectsSection />
 
-        <Connect />
+          <Connect />
+        </div>
       </div>
     </>
   );

@@ -11,7 +11,7 @@ const ProjectsSection = () => {
       <div
         onClick={() => setShowMenu(false)}
         id="projects"
-        className="pb-7 pl-6 lg:pl-[100px] bg-black text-white"
+        className="pb-7 pl-6 bg-black text-white"
       >
         <p className="pt-6 text-2xl font-semibold">Projects</p>
         <div className="lg:flex lg:flex-wrap lg:items-center  lg:gap-[50px]">
@@ -29,11 +29,11 @@ const ProjectsSection = () => {
             </>
           ))}
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex  items-center justify-center mr-24 pt-10">
           <a
             href="https://piyush578-portfolio.netlify.app/projects/project"
             target="_blank"
-            className="bg-[#7D6AE8] text-center hover:bg-[#A899FF] m-4 ml-0 px-4 py-3 rounded-lg"
+            className="bg-white text-black text-center m-4 px-4 py-3 rounded-lg"
           >
             More Projects
           </a>

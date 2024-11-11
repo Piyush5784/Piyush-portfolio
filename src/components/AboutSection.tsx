@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div
         onClick={() => setShowMenu(false)}
         id="about"
-        className=" bg-[#1C1F24] lg:pl-[100px] duration-300 pt-32  pl-6 pb-7 text-white"
+        className="duration-300 pl-6 pb-7 text-white "
       >
         <p className="p-4 pl-0 text-lg font-semibold">About me</p>
         <p className="font-extrabold text-3xl ">Piyush Jha</p>

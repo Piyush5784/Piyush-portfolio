@@ -6,10 +6,10 @@ const Connect = () => {
     <div
       onClick={() => setShowMenu(false)}
       id="connect"
-      className="pb-7 pl-6 lg:pl-[100px]   bg-black text-white"
+      className="pb-7  bg-black text-white"
     >
-      <p className="pt-6 text-2xl font-semibold">Connect with me</p>
-      <div className="flex gap-10 pt-7">
+      <p className="pt-6 text-2xl font-semibold ">Connect with me</p>
+      <div className="flex gap-10 pt-7 ">
         <a href="https://github.com/Piyush5784" target="_blank">
           <div>
             <i className="fa-brands fa-github fa-2xl text-[#7d7d7d]"></i>
