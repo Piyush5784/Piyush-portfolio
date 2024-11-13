@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Content } from "@/Content";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ThemeToggler } from "../Theme/theme-toggler";
 
@@ -47,9 +48,23 @@ export function AboutSection() {
           </Button>
         )}
         {Content.socialLinks.map((Item, index) => (
-          <Button key={index} variant={Item.buttonVarient || "outline"}>
-            <Item.icon size={Item.size || 18} />
-          </Button>
+          <Link
+            key={index}
+            href={Item.href}
+            target={
+              Item.href === "mailto:piyushjha5668@gmail.com"
+                ? "_self"
+                : "_blank"
+            }
+          >
+            <Button
+              key={index}
+              variant={"link"}
+              className="hover:border-b-4 border duration-150 transition-all "
+            >
+              <Item.icon size={Item.size || 18} />
+            </Button>
+          </Link>
         ))}
       </motion.div>
     </motion.div>
