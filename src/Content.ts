@@ -6,27 +6,27 @@ export const Content: ContentType = {
   name: "Piyush Jha",
   introText:
     "Hey 👋 Piyush here! a computer science student born and raised in Assam. I have a strong passion for full stack development and enjoy working with the latest technology stacks to build innovative websites. ",
-  Resume: { show: true, href: "" },
+  Resume: { show: false, href: "" },
   socialLinks: [
     {
       icon: FaGithub,
       size: 18,
-      href: "",
+      href: "https://github.com/Piyush5784",
     },
     {
       icon: FaTwitter,
       size: 18,
-      href: "",
+      href: "https://x.com/Piyush5784",
     },
     {
       icon: FaLinkedin,
       size: 18,
-      href: "",
+      href: "https://www.linkedin.com/in/piyush-jha-a29619239",
     },
     {
       icon: MdOutlineMailOutline,
       size: 20,
-      href: "",
+      href: "mailto:piyushjha5668@gmail.com",
     },
   ],
 
