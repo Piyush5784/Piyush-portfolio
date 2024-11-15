@@ -101,6 +101,14 @@ export const Content: ContentType = {
       sourceSrc: "https://github.com/Piyush5784/nextjs-template",
     },
     {
+      name: "Portfolio",
+      description:
+        "A portfolio for showcasing projects for every developer needs",
+      skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
+      liveSrc: "https://piyush.tech",
+      sourceSrc: "https://github.com/Piyush5784/Piyush-portfolio",
+    },
+    {
       name: "Jis",
       description:
         "Jain interior solution is a business in my hometown, which designs interiors for the homes",
