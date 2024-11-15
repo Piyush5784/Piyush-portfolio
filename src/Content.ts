@@ -93,6 +93,22 @@ export const Content: ContentType = {
   ],
   landingPage: [
     {
+      name: "Sass-t(UD)",
+      description:
+        "A sass landing page with initial page including authenctication using next-auth",
+      skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
+      liveSrc: "https://nextjs-template-three-phi.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/nextjs-template",
+    },
+    {
+      name: "Portfolio",
+      description:
+        "A portfolio for showcasing projects for every developer needs",
+      skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
+      liveSrc: "https://piyush.tech",
+      sourceSrc: "https://github.com/Piyush5784/Piyush-portfolio",
+    },
+    {
       name: "Jis",
       description:
         "Jain interior solution is a business in my hometown, which designs interiors for the homes",
