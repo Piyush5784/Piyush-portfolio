@@ -1,8 +1,9 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
-import { Button } from "@/components/ui/button";
+import { useEffect } from "react";
 
 export function ThemeToggler() {
   const { theme, setTheme } = useTheme();
@@ -21,6 +22,11 @@ export function ThemeToggler() {
       switchTheme();
     }
   };
+
+  useEffect(() => {
+    setTheme("dark");
+    localStorage.setItem("theme", "dark");
+  }, []);
 
   return (
     <Button
