@@ -145,7 +145,7 @@ export const Content: ContentType = {
       Date: "Aug 2024",
     },
     {
-      companyName: "UjuCode",
+      companyName: "Clamio",
       description:
         "Developed the scalable backend of the site in Nestjs including authentication, authorization, payment gateway. Used dynamoDb as a database and AWS for deployment",
       position: "Backend Developer Intern",
