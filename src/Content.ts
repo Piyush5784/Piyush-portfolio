@@ -42,6 +42,7 @@ export const Content: ContentType = {
     "Java",
     "Redux",
   ],
+  sections: ["PR's", "blogs", "experiences", "projects"],
 
   projects: [
     {
@@ -151,6 +152,30 @@ export const Content: ContentType = {
       skillsIncluded: ["Nestjs", "Dynamodb", "Razorpay", "RBAC"],
       location: "Assam, Ghy",
       Date: "July 2024 - Nov 2024",
+    },
+  ],
+  PRS: [
+    {
+      name: "Added a dynamic news page",
+      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/214",
+      merged: true,
+    },
+    {
+      name: "Added Topics Component",
+      merged: true,
+      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/215",
+    },
+    {
+      name: "Added Blog Page",
+      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/216",
+    },
+    {
+      name: "Made a dynamic date-of-birth selector using shadcn-ui",
+      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/220",
+    },
+    {
+      name: "Added a topics dialog had thousand of topics with selector",
+      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/227",
     },
   ],
 };
