@@ -1,4 +1,5 @@
 import { AboutSection } from "@/components/custom/About/about-section";
+import GitCalander from "@/components/custom/Footer";
 import Sections from "@/components/custom/Sections";
 import { SelectItems } from "@/components/custom/select-items";
 import Skills from "@/components/custom/Skills";

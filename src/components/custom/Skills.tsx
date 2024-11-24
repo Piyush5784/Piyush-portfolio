@@ -4,7 +4,14 @@ import { motion } from "framer-motion";
 const Skills = () => {
   return (
     <>
-      <p className="pt-5 font-bold text-xl">Skills</p>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+        className="pt-5 font-bold text-xl"
+      >
+        Skills
+      </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
