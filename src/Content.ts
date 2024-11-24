@@ -33,8 +33,11 @@ export const Content: ContentType = {
   skills: [
     "Reactjs",
     "Nextjs",
+    "Javascript",
     "Typescript",
     "Prisma",
+    "Nodejs",
+    "Expressjs",
     "Nestjs",
     "PostgreSQL",
     "MongoDb",
