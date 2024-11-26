@@ -8,6 +8,7 @@ import Experiences from "./Experiences";
 import Projects from "./Projects";
 import PRSections from "./Pr-s";
 import { Content } from "@/Content";
+import Education from "./Education";
 
 const Sections = () => {
   const selected = useRecoilValue<select>(selectAtom);
@@ -24,6 +25,7 @@ const Sections = () => {
           {selected == "experiences" && <Experiences />}
           {selected == "PR's" && <PRSections />}
           {selected == "projects" && <Projects />}
+          {selected == "Education" && <Education />}
         </motion.div>
       </div>
     </>

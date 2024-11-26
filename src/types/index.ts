@@ -1,7 +1,12 @@
 import { ReactNode } from "react";
 import { IconType } from "react-icons/lib";
 
-export type select = "projects" | "experiences" | "blogs" | "PR's";
+export type select =
+  | "projects"
+  | "experiences"
+  | "blogs"
+  | "PR's"
+  | "Education";
 
 export interface socialLinks {
   icon: IconType;
@@ -45,5 +50,10 @@ export interface ContentType {
   projects: projectContent[];
   experiences: ExperienceContent[];
   landingPage: projectContent[];
+  education: {
+    courseName: string;
+    universityName: string;
+    years: string;
+  }[];
   PRS: { name: string; merged?: boolean; liveSrc: string }[];
 }

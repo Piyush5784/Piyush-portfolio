@@ -11,13 +11,13 @@ export function SelectItems() {
   return (
     <>
       <div>
-        <div className="flex items-center pt-5 justify-start">
+        <div className="flex items-center pt-5 justify-start ">
           <div>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="relative flex w-[300px] my-2 border rounded-lg font-sm duration-300"
+              className="relative flex my-2 border rounded-lg font-sm duration-300"
             >
               {/* Option selectors */}
               <div
@@ -43,6 +43,17 @@ export function SelectItems() {
                 Experience
               </div>
               <div
+                onClick={() => setSelected("Education")}
+                className={cn(
+                  "flex-1 p-2 text-center cursor-pointer",
+                  select === "Education"
+                    ? "text-primary font-semibold"
+                    : "text-gray-600"
+                )}
+              >
+                Education
+              </div>
+              <div
                 onClick={() => setSelected("blogs")}
                 className={cn(
                   "flex-1 p-2 text-center cursor-pointer",
@@ -65,6 +76,7 @@ export function SelectItems() {
               >
                 PR's
               </div>
+
               {/* Animated border indicator */}
               <motion.div
                 className="absolute bottom-0 h-[3px] bg-primary rounded-full"
@@ -88,25 +100,29 @@ export function SelectItems() {
 function dynamicPosition(name: select) {
   switch (name) {
     case "projects":
-      return "0%";
+      return "3%";
     case "experiences":
-      return "92.33%";
+      return "85.33%";
     case "blogs":
-      return "330.66%";
+      return "465.66%";
     case "PR's":
-      return "540%";
+      return "705%";
+    case "Education":
+      return "220%";
   }
 }
 
 function dynamicWidth(name: select) {
   switch (name) {
     case "PR's":
-      return "15.33%";
+      return "12.33%";
     case "blogs":
-      return "18.33%";
+      return "15.33%";
     case "projects":
-      return "25.33%";
+      return "20.33%";
     case "experiences":
-      return "30.33%";
+      return "25.33%";
+    case "Education":
+      return "22%";
   }
 }

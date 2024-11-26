@@ -94,6 +94,21 @@ export const Content: ContentType = {
       liveSrc: "https://gemini-pro-latest.netlify.app",
       sourceSrc: "https://github.com/Piyush5784/Gemini-Pro",
     },
+    {
+      name: "Shopping-Cart",
+      description:
+        "A shopping cart features built for handling Cartitems, favorites items",
+      skills: ["Reactjs", "Typescript", "CSS", "Redux-toolkit"],
+      liveSrc: "https://shoping-cart-redux-vert.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/shopingCart-redux",
+    },
+    {
+      name: "Gymer",
+      description: "Gym site for managing membership was my first projects.",
+      skills: ["Reactjs", "Javascript", "Tailwind", "Razorpay"],
+      liveSrc: "https://gymer-version2-nbbn.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/GYMER-version2",
+    },
   ],
   landingPage: [
     {
@@ -128,13 +143,6 @@ export const Content: ContentType = {
       liveSrc: "https://furniro-sable.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/Furniro",
     },
-    {
-      name: "Gymer",
-      description: "Gym site for managing membership was my first projects.",
-      skills: ["Reactjs", "Javascript", "Tailwind", "Razorpay"],
-      liveSrc: "https://gymer-version2-nbbn.vercel.app",
-      sourceSrc: "https://github.com/Piyush5784/GYMER-version2",
-    },
   ],
 
   experiences: [
@@ -155,6 +163,18 @@ export const Content: ContentType = {
       skillsIncluded: ["Nestjs", "Dynamodb", "Razorpay", "RBAC"],
       location: "Assam, Ghy",
       Date: "July 2024 - Nov 2024",
+    },
+  ],
+  education: [
+    {
+      courseName: "Bachlor in Computer Applications",
+      universityName: "Guwahati University",
+      years: "2022-2025",
+    },
+    {
+      courseName: "AHSEC (High School)",
+      universityName: "K C Das Commerce College",
+      years: "2020-2022",
     },
   ],
   PRS: [
