@@ -120,6 +120,14 @@ export const Content: ContentType = {
       sourceSrc: "https://github.com/Piyush5784/nextjs-template",
     },
     {
+      name: "DSA-hub(UD)",
+      description:
+        "This platform contains a comprehensive list of DSA sheets all in one place.",
+      skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
+      liveSrc: "https://dsa-hub-peach.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/DSA-hub",
+    },
+    {
       name: "Portfolio",
       description:
         "A portfolio for showcasing projects for every developer needs",

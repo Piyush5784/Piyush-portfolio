@@ -41,7 +41,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <p className="font-bold text-xl">Some landing pages</p>
+      <p className="font-bold text-xl">Some static sites</p>
       <div className="flex flex-wrap items-center gap-10 w-full pb-10 ">
         {Content.landingPage.map((project, index) => (
           <div
