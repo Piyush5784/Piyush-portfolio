@@ -7,6 +7,7 @@ export const Content: ContentType = {
   introText:
     "Hey 👋 Piyush here! a computer science student born and raised in Assam. I have a strong passion for full stack development and enjoy working with the latest technology stacks to build innovative websites. ",
   Resume: { show: false, href: "" },
+
   socialLinks: [
     {
       icon: FaGithub,
@@ -46,7 +47,23 @@ export const Content: ContentType = {
     "Redux",
   ],
   sections: ["PR's", "blogs", "experiences", "projects"],
-
+  designs: [
+    {
+      title: "Nike-AirMax",
+      liveLink:
+        "https://www.figma.com/design/NeJw7C6aSE79kXdxn8xGGd/Untitled?node-id=0-1&t=TEUNJ8zYSpGOk0sR-1",
+    },
+    {
+      title: "MindSwap",
+      liveLink:
+        "https://www.figma.com/design/S9PBEDZ6l7mkTPvxLw7svN/MindSwap?node-id=1-363&t=VqEGzIYiGCw6jifJ-1",
+    },
+    {
+      title: "Gym web-app",
+      liveLink:
+        "https://www.figma.com/design/g8WJAAxPgwat7UdkfNbdqu/Untitled?node-id=0-1&t=YAe4dZAueiD3SnwP-1",
+    },
+  ],
   projects: [
     {
       name: "NextNotes",
@@ -108,6 +125,13 @@ export const Content: ContentType = {
       skills: ["Reactjs", "Javascript", "Tailwind", "Razorpay"],
       liveSrc: "https://gymer-version2-nbbn.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/GYMER-version2",
+    },
+  ],
+  blogs: [
+    {
+      title: "Most important commands for Docker management",
+      content: "",
+      href: "https://img-docker-commands.hashnode.dev/top-important-commands-for-docker-management",
     },
   ],
   landingPage: [

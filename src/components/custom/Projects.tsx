@@ -1,5 +1,5 @@
 import { Content } from "@/Content";
-import { Globe } from "lucide-react";
+import { ExternalLink, Globe } from "lucide-react";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { Button } from "../ui/button";
@@ -7,6 +7,7 @@ import { Button } from "../ui/button";
 const Projects = () => {
   return (
     <>
+      <p className=" text-xl opacity-40">Web apps</p>
       <div className="flex flex-wrap items-center gap-10 w-full pb-10">
         {Content.projects.map((project, index) => (
           <div
@@ -41,7 +42,8 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <p className="font-bold text-xl">Some static sites</p>
+
+      <p className=" text-xl opacity-40">Some static sites</p>
       <div className="flex flex-wrap items-center gap-10 w-full pb-10 ">
         {Content.landingPage.map((project, index) => (
           <div
@@ -77,6 +79,28 @@ const Projects = () => {
         ))}
       </div>
 
+      <p className=" text-xl opacity-40 mb-5">Designs</p>
+      <div className="flex flex-wrap items-center gap-10 w-full pb-10">
+        {Content.designs.map((project, index) => (
+          <div
+            key={index}
+            className="border p-6 md:w-[45%] w-[85%] rounded-xl  flex items-center justify-between"
+          >
+            <div>
+              <p className=" text-xl font-bold">{project.title}</p>
+            </div>
+            <div>
+              <Link
+                href={project.liveLink}
+                target="_blank"
+                className="opacity-50 hover:opacity-100 duration-75"
+              >
+                <ExternalLink />
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
       <div className="flex justify-center items-center">
         <Link href={"https://github.com/Piyush5784"} target="_blank">
           <Button> More projects</Button>

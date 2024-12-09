@@ -56,4 +56,13 @@ export interface ContentType {
     years: string;
   }[];
   PRS: { name: string; merged?: boolean; liveSrc: string }[];
+  designs: {
+    title: string;
+    liveLink: string;
+  }[];
+  blogs: {
+    title: string;
+    content: string;
+    href: string;
+  }[];
 }
