@@ -1,37 +1,25 @@
-name: Node.js CI with pnpm
-
+name: Workflow CI
 on:
   push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        node-version: [20]
     steps:
-      # Step 1: Checkout the code
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      # Step 2: Set up Node.js
-      - name: Set up Node.js
+      - uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
-          node-version: 18.x
-          cache: "pnpm" # Enable pnpm caching
-
-      # Step 3: Install pnpm
-      - name: Install pnpm
-        run: npm install -g pnpm
-
-      # Step 4: Install dependencies
+          node-version: ${{ matrix.node-version }}
+          cache: "pnpm"
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      # Step 5: Run the build (if applicable)
-      - name: Run build
-        run: pnpm run build
+        run: pnpm install
+      - name: Run Build
+        run: pnpm build
