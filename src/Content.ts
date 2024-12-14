@@ -108,8 +108,8 @@ export const Content: ContentType = {
         "Hono",
         "Cloudflare",
       ],
-      liveSrc: "https://gemini-pro-latest.netlify.app",
-      sourceSrc: "https://github.com/Piyush5784/Gemini-Pro",
+      liveSrc: "https://medium-blog-dh6d.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/Medium-blog",
     },
     {
       name: "Shopping-Cart",
