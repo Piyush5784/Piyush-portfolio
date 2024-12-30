@@ -17,7 +17,7 @@ export function SelectItems() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
-              className="relative flex my-2 border rounded-lg font-sm duration-300"
+              className="relative flex my-2 border rounded-lg text-sm md:text-[1rem] duration-300"
             >
               {/* Option selectors */}
               <div

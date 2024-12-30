@@ -7,8 +7,8 @@ import { Button } from "../ui/button";
 const Projects = () => {
   return (
     <>
-      <p className=" text-xl opacity-40">Web apps</p>
-      <div className="flex flex-wrap items-center gap-10 w-full pb-10">
+      <p className=" text-xl opacity-40 pl-7 md:pl-0">Web apps</p>
+      <div className="flex flex-wrap items-center justify-center md:justify-start gap-10 w-full pb-10">
         {Content.projects.map((project, index) => (
           <div
             key={index}
@@ -43,8 +43,8 @@ const Projects = () => {
         ))}
       </div>
 
-      <p className=" text-xl opacity-40">Some static sites</p>
-      <div className="flex flex-wrap items-center gap-10 w-full pb-10 ">
+      <p className=" text-xl opacity-40 pl-7 md:pl-0">Some static sites</p>
+      <div className="flex flex-wrap items-center justify-center md:justify-start gap-10 w-full pb-10 ">
         {Content.landingPage.map((project, index) => (
           <div
             key={index}
@@ -79,8 +79,8 @@ const Projects = () => {
         ))}
       </div>
 
-      <p className=" text-xl opacity-40 mb-5">Designs</p>
-      <div className="flex flex-wrap items-center gap-10 w-full pb-10">
+      <p className=" text-xl opacity-40 mb-5 pl-7 md:pl-0">Designs</p>
+      <div className="flex flex-wrap items-center justify-center md:justify-start gap-10 w-full pb-10">
         {Content.designs.map((project, index) => (
           <div
             key={index}

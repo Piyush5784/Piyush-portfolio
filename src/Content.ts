@@ -5,7 +5,7 @@ import { ContentType } from "./types";
 export const Content: ContentType = {
   name: "Piyush Jha",
   introText:
-    "Hey 👋 Piyush here! a computer science student born and raised in Assam. I have a strong passion for full stack development and enjoy working with the latest technology stacks to build innovative websites. ",
+    "Hey 👋 Piyush here! a computer science student from Assam. I have a strong passion for full stack development and enjoy working with the latest technology stacks to build innovative websites.",
   Resume: { show: false, href: "" },
 
   socialLinks: [
@@ -195,6 +195,15 @@ export const Content: ContentType = {
       skillsIncluded: ["Nestjs", "Dynamodb", "Razorpay", "RBAC"],
       location: "Assam, Ghy",
       Date: "July 2024 - Nov 2024",
+    },
+    {
+      companyName: "MindSwap",
+      description:
+        "Designed user interfaces and user experiences for the site, focusing on creating responsive components and mockups.",
+      position: "UI/UX Designer",
+      skillsIncluded: ["Figma", "Testing", "Responsive Components", "Mockups"],
+      location: "Remote",
+      Date: "June 2024 - Sep 2024",
     },
   ],
   education: [
