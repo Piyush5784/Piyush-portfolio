@@ -25,7 +25,7 @@ const Insights = () => {
 
   return (
     <>
-      <div className="fixed bottom-0 right-0 mr-3">
+      <div className="fixed bottom-0 right-0 mr-3 text-white">
         <div className="border rounded-xl p-3 mb-10 bg-black">
           <p className="dark:text-white">Current Users : {users}</p>
           <div className="text-sm flex items-center justify-center">
