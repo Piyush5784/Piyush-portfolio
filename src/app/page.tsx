@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <div className="flex items-center justify-center flex-col p-4 ">
         <div className=" lg:w-[40%] rounded-lg pt-5 pb-10">
-          <Insights />
+          {/* <Insights /> */}
           <AboutSection />
           <Skills />
           <SelectItems />

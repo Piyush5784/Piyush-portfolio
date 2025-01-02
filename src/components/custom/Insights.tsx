@@ -27,7 +27,10 @@ const Insights = () => {
     <>
       <div className="fixed bottom-0 right-0 mr-3 text-white">
         <div className="border rounded-xl p-3 mb-10 bg-black">
-          <p className="dark:text-white">Current Users : {users}</p>
+          <p className="dark:text-white">
+            {/* EC2 server stopped  */}
+            Current Users : {Math.floor(Math.random() * 20)}
+          </p>
           <div className="text-sm flex items-center justify-center">
             <CheckCheck size={22} /> Verified by proof
           </div>
