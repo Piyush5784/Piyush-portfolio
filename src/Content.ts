@@ -179,13 +179,29 @@ export const Content: ContentType = {
 
   experiences: [
     {
+      companyName: "Maili Enterprise",
+      description:
+        " Contract based work for the company, where I was responsible for building the frontend, backend and testing of the site using ReactJs and Tailwind CSS",
+      position: "Frontend Developer",
+      skillsIncluded: [
+        "ReactJS",
+        "Material UI",
+        "Typescript",
+        "Tailwind CSS",
+        "Nodejs",
+        "Expressjs",
+      ],
+      location: "Remote",
+      Date: "Oct 2024 - Dec 2024",
+    },
+    {
       companyName: "The Monkeys (open source organisation)",
       description:
         " Actively contributing to the monkeys organization, where focusing on the building and customizing components with shadcn and Editor.js for creating seamlessa and user friendly experiences",
       position: "Frontend Developer",
       skillsIncluded: ["Nextjs", "Shadcn", "Typescript", "Editorjs"],
       location: "Remote",
-      Date: "Aug 2024",
+      Date: "Oct 2024 ",
     },
     {
       companyName: "Clamio",
