@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Content } from "@/Content";
+
+export const runtime = "edge";
+
 const Education = () => {
   return (
     <>

@@ -1,8 +1,9 @@
 import { AboutSection } from "@/components/custom/About/about-section";
-import Insights from "@/components/custom/Insights";
 import Sections from "@/components/custom/Sections";
 import { SelectItems } from "@/components/custom/select-items";
 import Skills from "@/components/custom/Skills";
+
+export const runtime = "edge";
 
 export default function Home() {
   return (

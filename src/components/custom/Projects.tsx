@@ -4,6 +4,8 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { Button } from "../ui/button";
 
+export const runtime = "edge";
+
 const Projects = () => {
   return (
     <>

@@ -5,13 +5,15 @@ import type { Metadata } from "next";
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 
+export const runtime = "edge";
+
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
 export const metadata: Metadata = {
   title: "100xPiyush",
-  description: "This is a portfolio of piyush5784",
+  description: "This is a portfolio of Piyush (piyush5784)",
 };
 
 export default function RootLayout({

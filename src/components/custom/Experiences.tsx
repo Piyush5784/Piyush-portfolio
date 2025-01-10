@@ -1,5 +1,7 @@
 import { Content } from "@/Content";
 
+export const runtime = "edge";
+
 const Experiences = () => {
   return (
     <>
