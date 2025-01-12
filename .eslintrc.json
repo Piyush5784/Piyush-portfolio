@@ -1,7 +1,11 @@
 {
-  "extends": "next/core-web-vitals",
   "rules": {
     "react/no-unescaped-entities": "Off",
     "react-hooks/exhaustive-deps": "Off"
-  }
+  },
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:eslint-plugin-next-on-pages/recommended"
+  ],
+  "plugins": ["eslint-plugin-next-on-pages"]
 }

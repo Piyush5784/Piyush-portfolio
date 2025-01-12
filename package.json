@@ -7,35 +7,38 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "pages:build": "pnpx @cloudflare/next-on-pages"
+    "pages:build": "npx @cloudflare/next-on-pages",
+    "preview": "npm run pages:build && wrangler pages dev",
+    "deploy": "npm run pages:build && wrangler pages deploy"
   },
   "dependencies": {
     "@cloudflare/next-on-pages": "^1.13.7",
-    "@radix-ui/react-dropdown-menu": "^2.1.2",
-    "@radix-ui/react-slot": "^1.1.0",
-    "class-variance-authority": "^0.7.0",
+    "@radix-ui/react-dropdown-menu": "^2.1.4",
+    "@radix-ui/react-slot": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "framer-motion": "^11.11.11",
+    "framer-motion": "^11.17.0",
     "lucide-react": "^0.436.0",
     "next": "14.2.7",
     "next-themes": "^0.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-github-calendar": "^4.5.1",
-    "react-icons": "^5.3.0",
+    "react-github-calendar": "^4.5.3",
+    "react-icons": "^5.4.0",
     "react-recoil": "^0.7.0",
     "recoil": "^0.7.7",
-    "tailwind-merge": "^2.5.4",
+    "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "@types/node": "^20.17.6",
-    "@types/react": "^18.3.12",
-    "@types/react-dom": "^18.3.1",
+    "@types/node": "^20.17.12",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
     "eslint": "^8.57.1",
     "eslint-config-next": "14.2.7",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.14",
-    "typescript": "^5.6.3"
+    "eslint-plugin-next-on-pages": "^1.13.7",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
   }
 }
