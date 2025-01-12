@@ -182,7 +182,7 @@ export const Content: ContentType = {
       companyName: "Maili Enterprise",
       description:
         " Contract based work for the company, where I was responsible for building the frontend, backend and testing of the site using ReactJs and Tailwind CSS",
-      position: "Frontend Developer",
+      position: "Full Stack Developer",
       skillsIncluded: [
         "ReactJS",
         "Material UI",
