@@ -6,7 +6,10 @@ export const Content: ContentType = {
   name: "Piyush Jha",
   introText:
     "Hey 👋 Piyush here! a computer science student from Assam. I have a strong passion for full stack development and enjoy working with the latest technology stacks to build innovative websites.",
-  Resume: { show: true, href: "https://drive.google.com/file/d/1TDqv27WsD8K_v_vQsE8UFhhUsrO8wtcd/view?usp=sharing" },
+  Resume: {
+    show: true,
+    href: "https://drive.google.com/file/d/1TDqv27WsD8K_v_vQsE8UFhhUsrO8wtcd/view?usp=sharing",
+  },
 
   socialLinks: [
     {
@@ -81,12 +84,12 @@ export const Content: ContentType = {
       sourceSrc: "https://github.com/Piyush5784/NextNotes",
     },
     {
-      name: "Plantify",
+      name: "Typing-test",
       description:
-        " Plantify is an plants selling application where people can buy favorite plants",
-      skills: ["Nextjs", "Redux Toolkit", "Tailwind", "Shadcn ui", "Next Auth"],
-      liveSrc: "https://plantify-site-7584.netlify.app",
-      sourceSrc: "https://github.com/Piyush5784/Plantify",
+        "Simple typing test site where users can check their typing speed by writing a quote or paragraph",
+      skills: ["HTML5", "CSS3", "Javascript"],
+      liveSrc: "https://typing-test-site.pages.dev",
+      sourceSrc: "https://github.com/Piyush5784/Typing-test",
     },
     {
       name: "Gemini-chatBot",
@@ -95,6 +98,14 @@ export const Content: ContentType = {
       skills: ["Reactjs", "Typescript", "Tailwind", "Rest API"],
       liveSrc: "https://gemini-pro-latest.netlify.app",
       sourceSrc: "https://github.com/Piyush5784/Gemini-Pro",
+    },
+    {
+      name: "Plantify",
+      description:
+        " Plantify is an plants selling application where people can buy favorite plants",
+      skills: ["Nextjs", "Redux Toolkit", "Tailwind", "Shadcn ui", "Next Auth"],
+      liveSrc: "https://plantify-site-7584.netlify.app",
+      sourceSrc: "https://github.com/Piyush5784/Plantify",
     },
     {
       name: "Medium-blog",
