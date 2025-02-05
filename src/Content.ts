@@ -7,8 +7,8 @@ export const Content: ContentType = {
   introText:
     "Hey 👋 Piyush here! a computer science student from Assam. I have a strong passion for full stack development and enjoy working with the latest technology stacks to build innovative websites.",
   Resume: {
-    show: true,
-    href: "https://drive.google.com/file/d/1TDqv27WsD8K_v_vQsE8UFhhUsrO8wtcd/view?usp=sharing",
+    show: false,
+    href: "",
   },
 
   socialLinks: [
