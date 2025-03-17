@@ -151,6 +151,13 @@ export const Content: ContentType = {
   ],
   landingPage: [
     {
+      name: "Sass-t",
+      description: "A sass website with initial landing page",
+      skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
+      liveSrc: "https://next-template-rosy.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/next-template",
+    },
+    {
       name: "Sass-t(UD)",
       description:
         "A sass landing page with initial page including authenctication using next-auth",
