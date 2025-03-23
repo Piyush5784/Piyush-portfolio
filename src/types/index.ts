@@ -39,6 +39,7 @@ export interface ExperienceContent {
 
 export interface ContentType {
   name: string;
+  freelanceExp: string;
   introText: string;
   sections: select[];
   Resume: {

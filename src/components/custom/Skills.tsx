@@ -21,7 +21,7 @@ const Skills = () => {
         {Content.skills.map((Item, index) => (
           <button
             key={index}
-            className="text-[10px] px-3 py-1 rounded-sm dark:hover:bg-gray-200 dark:bg-white hover:bg-[#2e2e2f] bg-black  text-white  dark:text-black font-extrabold duration-100"
+            className="text-[10px] px-3 py-1 rounded-sm dark:hover:bg-gray-200 dark:bg-white hover:bg-[#2e2e2f] bg-black  text-white  dark:text-black font-extrabold duration-100 "
           >
             {Item}
           </button>

@@ -6,7 +6,7 @@ const Experiences = () => {
   return (
     <>
       {Content.experiences.map((experience, index) => (
-        <div key={index} className="border rounded-xl p-4 mt-2">
+        <div key={index} className="border rounded-xl p-4 mt-2 ">
           <div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center">
               <p className="text-lg sm:text-base">{experience.position}</p>

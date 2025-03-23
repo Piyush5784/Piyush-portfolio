@@ -13,7 +13,7 @@ const Education = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         {Content.education.map((education, idx) => (
-          <div key={idx} className="border rounded-xl p-4 mt-2">
+          <div key={idx} className="border rounded-xl p-4 mt-2 ">
             <div className="flex justify-between">
               <div>
                 <p> {education.courseName}</p>

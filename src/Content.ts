@@ -6,6 +6,8 @@ export const Content: ContentType = {
   name: "Piyush Jha",
   introText:
     "Hey 👋 Piyush here! a computer science student from Assam. I have a strong passion for full stack development and enjoy working with the latest technology stacks to build innovative websites.",
+  freelanceExp:
+    " Successfully completed 6 freelance projects, delivering high-quality solutions tailored to client requirements.",
   Resume: {
     show: false,
     href: "",
@@ -200,6 +202,22 @@ export const Content: ContentType = {
   ],
 
   experiences: [
+    {
+      companyName: "Clinix Sphere",
+      description:
+        " Developing responsive pages using React and Tailwind CSS, build and optimize APIs, and fix platform issues to enhance performance. I also generate structured content to improve usability and engagement.",
+      position: "Full Stack Developer",
+      skillsIncluded: [
+        "ReactJS",
+        "Typescript",
+        "Tailwind CSS",
+        "Nodejs",
+        "Expressjs",
+        "GIT",
+      ],
+      location: "Remote",
+      Date: "Feb 2025 - Currently working",
+    },
     {
       companyName: "Maili Enterprise",
       description:

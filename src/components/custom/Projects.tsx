@@ -14,7 +14,7 @@ const Projects = () => {
         {Content.projects.map((project, index) => (
           <div
             key={index}
-            className="border p-6 md:w-[45%] w-[85%] rounded-xl mt-5"
+            className="border p-6 md:w-[45%] w-[85%] rounded-xl mt-5 "
           >
             <p className=" text-2xl font-bold">{project.name}</p>
             <p className="pt-4 text-sm opacity-70">{project.description}</p>

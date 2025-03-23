@@ -3,25 +3,25 @@ import { Check, CheckCheck } from "lucide-react";
 import React, { useState } from "react";
 
 const Insights = () => {
-  const [socket, setSocket] = useState<null | WebSocket>(null);
-  const [message, setMessage] = React.useState("");
-  const [users, setUsers] = React.useState("");
-  const id = "57846795";
+  // const [socket, setSocket] = useState<null | WebSocket>(null);
+  // const [message, setMessage] = React.useState("");
+  // const [users, setUsers] = React.useState("");
+  // const id = "57846795";
 
-  React.useEffect(() => {
-    const newSocket = new WebSocket("wss://www.livestats.site?id=57846795");
-    setSocket(newSocket);
-    newSocket.onmessage = (event) => {
-      const data = JSON.parse(event.data);
-      if (data.type === "update") {
-        setUsers(data.totalUsers);
-      }
-    };
-    return () => {
-      newSocket.close();
-      setSocket(null);
-    };
-  }, []);
+  // React.useEffect(() => {
+  //   const newSocket = new WebSocket("wss://www.livestats.site?id=57846795");
+  //   setSocket(newSocket);
+  //   newSocket.onmessage = (event) => {
+  //     const data = JSON.parse(event.data);
+  //     if (data.type === "update") {
+  //       setUsers(data.totalUsers);
+  //     }
+  //   };
+  //   return () => {
+  //     newSocket.close();
+  //     setSocket(null);
+  //   };
+  // }, []);
 
   return (
     <>
