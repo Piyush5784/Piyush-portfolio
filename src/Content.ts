@@ -75,6 +75,21 @@ export const Content: ContentType = {
   ],
   projects: [
     {
+      name: "Task-gen - (UD)",
+      description:
+        "A project management tool to manage organisations, projects and tasks",
+      skills: [
+        "Nextjs",
+        "Typescript",
+        "MongoDb",
+        "Tailwind",
+        "Acernity",
+        "Next Auth",
+      ],
+      liveSrc: "https://task-gen.netlify.app",
+      sourceSrc: "https://github.com/Piyush5784/TaskGen",
+    },
+    {
       name: "NextNotes",
       description:
         "NextNotes is a full stack note-taking app with rich text editor Editorjs",
