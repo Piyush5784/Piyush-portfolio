@@ -12,11 +12,10 @@ const Projects = () => {
       <p className=" text-xl opacity-40 pl-7 md:pl-0">Web apps</p>
       <div className="flex flex-wrap items-center justify-center md:justify-start gap-10 w-full pb-10">
         {Content.projects.map((project, index) => (
-
           <div
             key={index}
             className="border p-6 md:w-[45%] w-[85%] rounded-xl mt-5 "
-          ><div></div>
+          >
             <p className=" text-2xl font-bold">{project.name}</p>
             <p className="pt-4 text-sm opacity-70">{project.description}</p>
             <div className="flex gap-2 flex-wrap pt-4">
@@ -36,11 +35,11 @@ const Projects = () => {
                   Live
                 </span>
               </Link>
-              <Link href={project.sourceSrc} target="_blank">
+              {project.sourceSrc &&<Link href={project.sourceSrc} target="_blank">
                 <span className=" justify-center items-center hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
                   <FaGithub size={25} /> Source
                 </span>
-              </Link>
+              </Link>}
             </div>
           </div>
         ))}
@@ -65,18 +64,18 @@ const Projects = () => {
                 </button>
               ))}
             </div>
-            <div className="pt-10 flex gap-5">
+          <div className="pt-10 flex gap-5">
               <Link href={project.liveSrc} target="_blank">
                 <span className=" hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
                   <Globe />
                   Live
                 </span>
               </Link>
-              <Link href={project.sourceSrc} target="_blank">
+              {project.sourceSrc && <Link href={project.sourceSrc} target="_blank">
                 <span className=" justify-center items-center hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
                   <FaGithub size={25} /> Source
                 </span>
-              </Link>
+              </Link>}
             </div>
           </div>
         ))}

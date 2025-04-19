@@ -75,9 +75,20 @@ export const Content: ContentType = {
   ],
   projects: [
     {
+      name: "Code - screensoft generator",
+      description:
+        "Generate coding screensoft easily with custom themes and padding.",
+      skills: [
+        "Nextjs",
+        "Typescript",
+        "Tailwind",
+      ],
+      liveSrc: "https://code-screensoft-generator.netlify.app"
+    },
+    {
       name: "Task-gen - (UD)",
       description:
-        "A project management tool to manage organisations, projects and tasks",
+        "A project management tool to manage organisations, projects and tasks.",
       skills: [
         "Nextjs",
         "Typescript",
@@ -87,12 +98,12 @@ export const Content: ContentType = {
         "Next Auth",
       ],
       liveSrc: "https://task-gen.netlify.app",
-      sourceSrc: "https://github.com/Piyush5784/TaskGen",
+      // sourceSrc: "https://github.com/Piyush5784/TaskGen",
     },
     {
       name: "NextNotes",
       description:
-        "NextNotes is a full stack note-taking app with rich text editor Editorjs",
+        "NextNotes is a full stack note-taking app with rich text editor Editorjs.",
       skills: [
         "Nextjs",
         "Typescript",
@@ -107,7 +118,7 @@ export const Content: ContentType = {
     {
       name: "Typing-test",
       description:
-        "Simple typing test site where users can check their typing speed by writing a quote or paragraph",
+        "Simple typing test site where users can check their typing speed by writing a quote or paragraph.",
       skills: ["HTML5", "CSS3", "Javascript"],
       liveSrc: "https://typing-test-site.pages.dev",
       sourceSrc: "https://github.com/Piyush5784/Typing-test",
@@ -131,7 +142,7 @@ export const Content: ContentType = {
     {
       name: "Medium-blog",
       description:
-        "A blog website tried to make it simpler to Medium, where people can manage blogs",
+        "A blog website tried to make it simpler to Medium, where people can manage blogs.",
       skills: [
         "Reactjs",
         "Typescript",
@@ -146,7 +157,7 @@ export const Content: ContentType = {
     {
       name: "Shopping-Cart",
       description:
-        "A shopping cart features built for handling Cartitems, favorites items",
+        "A shopping cart features built for handling Cartitems, favorites items.",
       skills: ["Reactjs", "Typescript", "CSS", "Redux-toolkit"],
       liveSrc: "https://shoping-cart-redux-vert.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/shopingCart-redux",
@@ -177,7 +188,7 @@ export const Content: ContentType = {
     {
       name: "Sass-t(UD)",
       description:
-        "A sass landing page with initial page including authenctication using next-auth",
+        "A sass landing page with initial page including authenctication using next-auth.",
       skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
       liveSrc: "https://nextjs-template-three-phi.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/nextjs-template",
@@ -201,7 +212,7 @@ export const Content: ContentType = {
     {
       name: "Jis",
       description:
-        "Jain interior solution is a business in my hometown, which designs interiors for the homes",
+        "Jain interior solution is a business in my hometown, which designs interiors for the homes.",
       skills: ["Reactjs", "Typescript", "Tailwind", "Framer-motion"],
       liveSrc: "https://jaininteriorsolution.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/JisHome",
@@ -209,7 +220,7 @@ export const Content: ContentType = {
     {
       name: "Furniro",
       description:
-        "Furniro is a furniture selling application which sells furnitures for home and offices",
+        "Furniro is a furniture selling application which sells furnitures for home and offices.",
       skills: ["Reactjs", "Typescript", "Vanilla CSS", "SCSS"],
       liveSrc: "https://furniro-sable.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/Furniro",

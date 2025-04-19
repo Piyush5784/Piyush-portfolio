@@ -26,7 +26,7 @@ export interface projectContent {
   description: ReactNode | string;
   skills: string[];
   liveSrc: string;
-  sourceSrc: string;
+  sourceSrc?: string;
 }
 export interface ExperienceContent {
   companyName: string;
