@@ -29,17 +29,21 @@ const Projects = () => {
               ))}
             </div>
             <div className="pt-10 flex gap-5">
-              <Link href={project.liveSrc} target="_blank">
-                <span className=" hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
-                  <Globe />
-                  Live
-                </span>
-              </Link>
-              {project.sourceSrc &&<Link href={project.sourceSrc} target="_blank">
-                <span className=" justify-center items-center hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
-                  <FaGithub size={25} /> Source
-                </span>
-              </Link>}
+              {project.liveSrc && (
+                <Link href={project.liveSrc} target="_blank">
+                  <span className=" hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
+                    <Globe />
+                    Live
+                  </span>
+                </Link>
+              )}
+              {project.sourceSrc && (
+                <Link href={project.sourceSrc} target="_blank">
+                  <span className=" justify-center items-center hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
+                    <FaGithub size={25} /> Source
+                  </span>
+                </Link>
+              )}
             </div>
           </div>
         ))}
@@ -64,18 +68,22 @@ const Projects = () => {
                 </button>
               ))}
             </div>
-          <div className="pt-10 flex gap-5">
-              <Link href={project.liveSrc} target="_blank">
-                <span className=" hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
-                  <Globe />
-                  Live
-                </span>
-              </Link>
-              {project.sourceSrc && <Link href={project.sourceSrc} target="_blank">
-                <span className=" justify-center items-center hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
-                  <FaGithub size={25} /> Source
-                </span>
-              </Link>}
+            <div className="pt-10 flex gap-5">
+              {project.liveSrc && (
+                <Link href={project.liveSrc} target="_blank">
+                  <span className=" hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
+                    <Globe />
+                    Live
+                  </span>
+                </Link>
+              )}
+              {project.sourceSrc && (
+                <Link href={project.sourceSrc} target="_blank">
+                  <span className=" justify-center items-center hover:opacity-100 opacity-25 text-black dark:text-white cursor-pointer hover:underline flex gap-2">
+                    <FaGithub size={25} /> Source
+                  </span>
+                </Link>
+              )}
             </div>
           </div>
         ))}

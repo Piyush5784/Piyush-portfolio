@@ -75,30 +75,12 @@ export const Content: ContentType = {
   ],
   projects: [
     {
-      name: "Code - screensoft generator",
+      name: "Startup-validater",
       description:
-        "Generate coding screensoft easily with custom themes and padding.",
-      skills: [
-        "Nextjs",
-        "Typescript",
-        "Tailwind",
-      ],
-      liveSrc: "https://code-screensoft-generator.netlify.app"
-    },
-    {
-      name: "Task-gen - (UD)",
-      description:
-        "A project management tool to manage organisations, projects and tasks.",
-      skills: [
-        "Nextjs",
-        "Typescript",
-        "MongoDb",
-        "Tailwind",
-        "Acernity",
-        "Next Auth",
-      ],
-      liveSrc: "https://task-gen.netlify.app",
-      // sourceSrc: "https://github.com/Piyush5784/TaskGen",
+        "Share your project ideas with the world, and get your feedback by peoples",
+      skills: ["Nextjs", "Typescript", "Supabase", "Tailwind", "PostgreSQL"],
+      liveSrc: "https://startup-validater.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/startup-validater",
     },
     {
       name: "NextNotes",
@@ -116,6 +98,37 @@ export const Content: ContentType = {
       sourceSrc: "https://github.com/Piyush5784/NextNotes",
     },
     {
+      name: "Code - screensoft generator",
+      description:
+        "Generate coding screensoft easily with custom themes and padding.",
+      skills: ["Nextjs", "Typescript", "Tailwind"],
+      liveSrc: "https://code-screensoft-generator.netlify.app",
+    },
+    {
+      name: "Plantify",
+      description:
+        " Plantify is an plants selling application where people can buy favorite plants",
+      skills: ["Nextjs", "Redux Toolkit", "Tailwind", "Shadcn ui", "Next Auth"],
+      liveSrc: "https://plantify-site-7584.netlify.app",
+      sourceSrc: "https://github.com/Piyush5784/Plantify",
+    },
+    {
+      name: "Task-gen - (UD)",
+      description:
+        "A project management tool to manage organisations, projects and tasks.",
+      skills: [
+        "Nextjs",
+        "Typescript",
+        "MongoDb",
+        "Tailwind",
+        "Acernity",
+        "Next Auth",
+      ],
+      liveSrc: "https://task-gen.netlify.app",
+      // sourceSrc: "https://github.com/Piyush5784/TaskGen",
+    },
+
+    {
       name: "Typing-test",
       description:
         "Simple typing test site where users can check their typing speed by writing a quote or paragraph.",
@@ -131,14 +144,7 @@ export const Content: ContentType = {
       liveSrc: "https://gemini-pro-latest.netlify.app",
       sourceSrc: "https://github.com/Piyush5784/Gemini-Pro",
     },
-    {
-      name: "Plantify",
-      description:
-        " Plantify is an plants selling application where people can buy favorite plants",
-      skills: ["Nextjs", "Redux Toolkit", "Tailwind", "Shadcn ui", "Next Auth"],
-      liveSrc: "https://plantify-site-7584.netlify.app",
-      sourceSrc: "https://github.com/Piyush5784/Plantify",
-    },
+
     {
       name: "Medium-blog",
       description:
@@ -166,7 +172,7 @@ export const Content: ContentType = {
       name: "Gymer",
       description: "Gym site for managing membership was my first projects.",
       skills: ["Reactjs", "Javascript", "Tailwind", "Razorpay"],
-      liveSrc: "https://gymer-version2-nbbn.vercel.app",
+      // liveSrc: "https://gymer-version2-nbbn.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/GYMER-version2",
     },
   ],
