@@ -35,14 +35,16 @@ export function AboutSection() {
       >
         {Content.introText}
       </motion.p>
-      <motion.p
-        className="pt-5"
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 0.2 }}
-      >
-        {Content.freelanceExp}
-      </motion.p>
+      {Content?.freelanceExp && (
+        <motion.p
+          className="pt-5"
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          {Content?.freelanceExp}
+        </motion.p>
+      )}
 
       <motion.div
         className="pt-10 flex gap-2 flex-wrap"
