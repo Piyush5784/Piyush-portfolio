@@ -234,22 +234,22 @@ export const Content: ContentType = {
   ],
 
   experiences: [
-    // {
-    //   companyName: "Clinix Sphere",
-    //   description:
-    //     " Developing responsive pages using React and Tailwind CSS, build and optimize APIs, and fix platform issues to enhance performance. I also generate structured content to improve usability and engagement.",
-    //   position: "Full Stack Developer",
-    //   skillsIncluded: [
-    //     "ReactJS",
-    //     "Typescript",
-    //     "Tailwind CSS",
-    //     "Nodejs",
-    //     "Expressjs",
-    //     "GIT",
-    //   ],
-    //   location: "Remote",
-    //   Date: "Feb 2025 - Apr 2024",
-    // },
+    {
+      companyName: "Clinix Sphere",
+      description:
+        " Developing responsive pages using React and Tailwind CSS, build and optimize APIs, and fix platform issues to enhance performance. I also generate structured content to improve usability and engagement.",
+      position: "Full Stack Developer",
+      skillsIncluded: [
+        "ReactJS",
+        "Typescript",
+        "Tailwind CSS",
+        "Nodejs",
+        "Expressjs",
+        "GIT",
+      ],
+      location: "Remote",
+      Date: "Feb 2025 - Apr 2024",
+    },
     {
       companyName: "Maili Enterprise",
       description:
