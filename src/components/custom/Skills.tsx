@@ -8,7 +8,7 @@ const Skills = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="pt-5 font-bold text-xl"
+        className=" font-bold text-xl"
       >
         Skills
       </motion.div>

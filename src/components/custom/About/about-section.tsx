@@ -8,13 +8,13 @@ import { ThemeToggler } from "../Theme/theme-toggler";
 
 export function AboutSection() {
   const router = useRouter();
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      {/* Name and Theme Toggle */}
       <motion.div
         className="flex items-center justify-between"
         initial={{ opacity: 0, y: -10 }}
@@ -22,11 +22,8 @@ export function AboutSection() {
         transition={{ duration: 0.5, delay: 0.1 }}
       >
         <p className="text-[25px] font-semibold">{Content.name}</p>
-        <span>
-          <ThemeToggler />
-        </span>
+        <ThemeToggler />
       </motion.div>
-
       <motion.p
         className="pt-5"
         initial={{ opacity: 0, y: -10 }}
@@ -40,14 +37,13 @@ export function AboutSection() {
           className="pt-5"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
+          transition={{ duration: 0.5, delay: 0.25 }}
         >
           {Content?.freelanceExp}
         </motion.p>
       )}
-
       <motion.div
-        className="pt-10 flex gap-2 flex-wrap"
+        className="pt-6 flex gap-2 flex-wrap items-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.3 }}
@@ -61,20 +57,34 @@ export function AboutSection() {
           <Link
             key={index}
             href={Item.href}
-            target={
-              Item.href === "mailto:piyushjha5668@gmail.com"
-                ? "_self"
-                : "_blank"
-            }
+            target={Item.href.startsWith("mailto:") ? "_self" : "_blank"}
           >
             <Button
-              key={index}
-              variant={"link"}
-              className="hover:border-b-4 border duration-150 transition-all "
+              variant="link"
+              className="hover:border-b-4 border duration-150 transition-all"
             >
               <Item.icon size={Item.size || 18} />
             </Button>
           </Link>
+        ))}
+      </motion.div>
+
+      <div className="font-semibold text-foreground py-5">
+        Technical Skills:
+      </div>
+      <motion.div
+        className="space-y-5 text-sm text-muted-foreground"
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+      >
+        {Content.technicalSkills.map((skill, index) => (
+          <div key={index}>
+            <span className="font-semibold text-foreground">
+              {skill.category}:
+            </span>{" "}
+            {skill.items}
+          </div>
         ))}
       </motion.div>
     </motion.div>

@@ -18,7 +18,7 @@ const Blogs = () => {
         {Content.blogs.map((blog, idx) => (
           <div
             key={idx}
-            className="text-white flex justify-between items-center"
+            className="text-black dark:text-white flex justify-between items-center"
           >
             <p>{blog.title}</p>
 

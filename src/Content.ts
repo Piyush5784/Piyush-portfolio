@@ -55,6 +55,39 @@ export const Content: ContentType = {
     "EC2",
     "Redux",
   ],
+
+  technicalSkills: [
+    {
+      category: "Languages",
+      items: "JavaScript, TypeScript, Java, C, C++",
+    },
+    {
+      category: "Frontend",
+      items:
+        "React, Next.js, TailwindCSS, Headless UI, ShadCN UI, Framer Motion, Redux, Recoil, Zustand, Context API, Tanstack Query, React Hook Form, Jest",
+    },
+    {
+      category: "Backend",
+      items: "Node.js, Express.js, Nest.js, Hono.js, Kafka",
+    },
+    {
+      category: "Databases",
+      items: "PostgreSQL, MongoDB, Redis, Dynammo DB",
+    },
+    {
+      category: "Runtime",
+      items: "Node.js, Bun, Deno, Edge runtime (Vercel)",
+    },
+    {
+      category: "Cloud & DevOps",
+      items: "AWS (EC2, VPC, RDS, S3), Docker, CI/CD, Git",
+    },
+    {
+      category: "Tools",
+      items: "Figma, Postman, Handbrake, FFMPEG",
+    },
+  ],
+
   sections: ["PR's", "blogs", "experiences", "projects"],
   designs: [
     {
@@ -91,14 +124,14 @@ export const Content: ContentType = {
         "Typescript",
         "PostgreSQL",
         "Tailwind",
-        "Acernity",
+        // "Acernity",
         "Next Auth",
       ],
       liveSrc: "https://nextnote-nextjs.netlify.app",
       sourceSrc: "https://github.com/Piyush5784/NextNotes",
     },
     {
-      name: "Code - screensoft generator",
+      name: "Code - screensoft",
       description:
         "Generate coding screensoft easily with custom themes and padding.",
       skills: ["Nextjs", "Typescript", "Tailwind"],
@@ -186,7 +219,7 @@ export const Content: ContentType = {
   landingPage: [
     {
       name: "Sass-t",
-      description: "A sass website with initial landing page",
+      description: "A sass website template with initial landing page",
       skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
       liveSrc: "https://next-template-rosy.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/next-template",

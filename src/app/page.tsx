@@ -9,13 +9,18 @@ export const runtime = "edge";
 export default function Home() {
   return (
     <>
-      <div className="flex items-center justify-center flex-col p-4 ">
-        <div className=" lg:w-[40%] rounded-lg pt-5 pb-10">
-          {/* <Insights /> */}
-          <AboutSection />
-          <Skills />
-          <SelectItems />
-          <Sections />
+      <div className="flex items-center justify-center flex-col ">
+        <div className="  rounded-lg h-screen">
+          <div className="flex w-full flex-col md:flex-row gap-5 md:overflow-hidden overflow-scroll h-[100vh] p-5">
+            <div className="shadow-lg md:w-[30%] p-5 rounded-xl border  ">
+              <AboutSection />
+            </div>
+            <div className="shadow-lg md:w-[70%] p-5  rounded-xl border md:overflow-y-scroll ">
+              <Skills />
+              <SelectItems />
+              <Sections />
+            </div>
+          </div>
         </div>
       </div>
     </>

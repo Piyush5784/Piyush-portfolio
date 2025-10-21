@@ -36,10 +36,14 @@ export interface ExperienceContent {
   location: string;
   Date: string;
 }
-
+export interface technicalSkills {
+  category: string;
+  items: string;
+}
 export interface ContentType {
   name: string;
   freelanceExp?: string;
+  technicalSkills: technicalSkills[];
   introText: string;
   sections: select[];
   Resume: {
