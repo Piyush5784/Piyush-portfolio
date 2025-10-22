@@ -107,3 +107,29 @@
     mask-size: 350vmax;
   }
 }
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #616161; /* black thumb */
+  border: 3px solid #434343; /* white border around thumb */
+}
+
+/* Scrollbar track (background) */
+::-webkit-scrollbar-track {
+  border-radius: 100px;
+  background: #fff; /* white track */
+}
+
+/* Optional: hover effect */
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 100px;
+  background: #333; /* slightly lighter black on hover */
+}

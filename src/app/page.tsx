@@ -3,7 +3,7 @@ import Insights from "@/components/custom/Insights";
 import Sections from "@/components/custom/Sections";
 import { SelectItems } from "@/components/custom/select-items";
 import Skills from "@/components/custom/Skills";
-
+import "./globals.css";
 export const runtime = "edge";
 
 export default function Home() {

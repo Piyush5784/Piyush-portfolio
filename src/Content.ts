@@ -108,11 +108,19 @@ export const Content: ContentType = {
   ],
   projects: [
     {
+      name: "share-snippets (UD)",
+      description:
+        "Share your pieces of codes, to anyone and import it via vs-extensions",
+      skills: ["Nextjs", "Typescript", "Prisma", "Tailwind"],
+      liveSrc: "https://www.share-snippets.site",
+      // sourceSrc: "https://github.com/Piyush5784/startup-validater",
+    },
+    {
       name: "Startup-validater",
       description:
         "Share your project ideas with the world, and get your feedback by peoples",
       skills: ["Nextjs", "Typescript", "Supabase", "Tailwind", "PostgreSQL"],
-      liveSrc: "https://startup-validater.vercel.app",
+      // liveSrc: "https://startup-validater.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/startup-validater",
     },
     {
@@ -157,8 +165,8 @@ export const Content: ContentType = {
         "Acernity",
         "Next Auth",
       ],
-      liveSrc: "https://task-gen.netlify.app",
-      // sourceSrc: "https://github.com/Piyush5784/TaskGen",
+      // liveSrc: "https://task-gen.netlify.app",
+      sourceSrc: "https://github.com/Piyush5784/TaskGen",
     },
 
     {
