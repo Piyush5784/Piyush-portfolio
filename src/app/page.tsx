@@ -15,8 +15,8 @@ export default function Home() {
             <div className="shadow-lg md:w-[30%] p-5 rounded-xl border  ">
               <AboutSection />
             </div>
-            <div className="shadow-lg md:w-[70%] p-5  rounded-xl border md:overflow-y-scroll ">
-              <Skills />
+            <div className="shadow-lg md:w-[70%] p-5 pt-0  rounded-xl border md:overflow-y-scroll ">
+              {/* <Skills /> */}
               <SelectItems />
               <Sections />
             </div>

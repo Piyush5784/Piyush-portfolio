@@ -5,9 +5,9 @@ import { ContentType } from "./types";
 export const Content: ContentType = {
   name: "Piyush Jha",
   introText:
-    "Hey 👋 Piyush here! a computer science student from Assam. I have a strong passion for full stack development and enjoy working with the latest technology stacks to build innovative websites.",
-  // freelanceExp:
-  //   " Successfully completed 6 freelance projects, delivering high-quality solutions tailored to client requirements.",
+    "Hey 👋 I'm Piyush, a passionate full-stack developer focused on building optimized, scalable solutions.",
+  freelanceExp:
+    "What I like is to make the product as optimized and perfect as possible ",
   Resume: {
     show: false,
     href: "",
@@ -112,16 +112,20 @@ export const Content: ContentType = {
       description:
         "Share your pieces of codes, to anyone and import it via vs-extensions",
       skills: ["Nextjs", "Typescript", "Prisma", "Tailwind"],
+<<<<<<< HEAD
        liveSrc: "https://www.share-snippets.site",
       // sourceSrc: "https://github.com/Piyush5784/startup-validater",
+=======
+      liveSrc: "https://www.share-snippets.site",
+>>>>>>> 7d41ff4 (added projects)
     },
     {
-      name: "Startup-validater",
+      name: "Workflow Automation ",
       description:
-        "Share your project ideas with the world, and get your feedback by peoples",
-      skills: ["Nextjs", "Typescript", "Supabase", "Tailwind", "PostgreSQL"],
-      // liveSrc: "https://startup-validater.vercel.app",
-      sourceSrc: "https://github.com/Piyush5784/startup-validater",
+        "Building some features of n8n, like sending an email including await, telegram, some ai things,",
+      skills: ["Nextjs", "Typescript", "Prisma", "Tailwind", "Nodejs", "Kafka"],
+
+      sourceSrc: "https://github.com/Piyush5784/n8n-clone-v0",
     },
     {
       name: "NextNotes",
@@ -153,6 +157,30 @@ export const Content: ContentType = {
       liveSrc: "https://plantify-site-7584.netlify.app",
       sourceSrc: "https://github.com/Piyush5784/Plantify",
     },
+    {
+      name: "Medium-blog",
+      description:
+        "A blog website tried to make it simpler to Medium, where people can manage blogs.",
+      skills: [
+        "Reactjs",
+        "Typescript",
+        "Tailwind",
+        "Rest API",
+        "Hono",
+        "Cloudflare",
+      ],
+      liveSrc: "https://medium-blog-dh6d.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/Medium-blog",
+    },
+    {
+      name: "Startup-validater",
+      description:
+        "Share your project ideas with the world, and get your feedback by peoples",
+      skills: ["Nextjs", "Typescript", "Supabase", "Tailwind", "PostgreSQL"],
+      // liveSrc: "https://startup-validater.vercel.app",
+      sourceSrc: "https://github.com/Piyush5784/startup-validater",
+    },
+
     {
       name: "Task-gen - (UD)",
       description:
@@ -186,21 +214,6 @@ export const Content: ContentType = {
       sourceSrc: "https://github.com/Piyush5784/Gemini-Pro",
     },
 
-    {
-      name: "Medium-blog",
-      description:
-        "A blog website tried to make it simpler to Medium, where people can manage blogs.",
-      skills: [
-        "Reactjs",
-        "Typescript",
-        "Tailwind",
-        "Rest API",
-        "Hono",
-        "Cloudflare",
-      ],
-      liveSrc: "https://medium-blog-dh6d.vercel.app",
-      sourceSrc: "https://github.com/Piyush5784/Medium-blog",
-    },
     {
       name: "Shopping-Cart",
       description:
@@ -261,7 +274,7 @@ export const Content: ContentType = {
       description:
         "Jain interior solution is a business in my hometown, which designs interiors for the homes.",
       skills: ["Reactjs", "Typescript", "Tailwind", "Framer-motion"],
-      liveSrc: "https://jaininteriorsolution.vercel.app",
+      liveSrc: "https://jis-home-578434.vercel.app/",
       sourceSrc: "https://github.com/Piyush5784/JisHome",
     },
     {

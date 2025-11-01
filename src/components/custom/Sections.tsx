@@ -14,7 +14,7 @@ const Sections = () => {
   const selected = useRecoilValue<select>(selectAtom);
   return (
     <>
-      <div className="pt-5">
+      <div className="pt-5 ">
         <motion.div
           key={selected}
           initial={{ opacity: 0, y: -10 }}

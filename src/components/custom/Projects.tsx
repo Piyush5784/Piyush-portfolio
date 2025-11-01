@@ -9,7 +9,7 @@ export const runtime = "edge";
 const Projects = () => {
   return (
     <>
-      <p className="text-xl opacity-40 pb-4 md:pl-0">Web apps</p>
+      <p className="text-xl opacity-40 pb-4 md:pl-2">Web apps</p>
       <div className="flex flex-wrap items-stretch  md:justify-start gap-2 w-full">
         {Content.projects.map((project, index) => (
           <div
@@ -59,7 +59,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <p className="text-xl opacity-40 pb-4 md:pl-0 pt-4">Some static sites</p>
+      <p className="text-xl opacity-40 pb-4 md:pl-2 pt-4">Some static sites</p>
       <div className="flex flex-wrap items-stretch  md:justify-start gap-2 w-full">
         {Content.landingPage.map((project, index) => (
           <div
@@ -108,7 +108,7 @@ const Projects = () => {
         ))}
       </div>
 
-      <p className="text-xl opacity-40 pb-4 md:pl-0 pt-4">Designs</p>
+      <p className="text-xl opacity-40 pb-4 md:pl-2 pt-4">Designs</p>
       <div className="flex flex-wrap items-stretch  md:justify-start gap-2 w-full">
         {Content.designs.map((project, index) => (
           <div
