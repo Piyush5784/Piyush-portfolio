@@ -112,7 +112,7 @@ export const Content: ContentType = {
       description:
         "Share your pieces of codes, to anyone and import it via vs-extensions",
       skills: ["Nextjs", "Typescript", "Prisma", "Tailwind"],
-      // liveSrc: "https://www.share-snippets.site",
+       liveSrc: "https://www.share-snippets.site",
       // sourceSrc: "https://github.com/Piyush5784/startup-validater",
     },
     {
@@ -372,4 +372,5 @@ export const Content: ContentType = {
     },
   ],
 };
+
 
