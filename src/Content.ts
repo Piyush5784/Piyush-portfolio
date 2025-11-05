@@ -112,12 +112,8 @@ export const Content: ContentType = {
       description:
         "Share your pieces of codes, to anyone and import it via vs-extensions",
       skills: ["Nextjs", "Typescript", "Prisma", "Tailwind"],
-<<<<<<< HEAD
-       liveSrc: "https://www.share-snippets.site",
-      // sourceSrc: "https://github.com/Piyush5784/startup-validater",
-=======
       liveSrc: "https://www.share-snippets.site",
->>>>>>> 7d41ff4 (added projects)
+      // sourceSrc: "https://github.com/Piyush5784/startup-validater",
     },
     {
       name: "Workflow Automation ",
@@ -385,5 +381,3 @@ export const Content: ContentType = {
     },
   ],
 };
-
-
