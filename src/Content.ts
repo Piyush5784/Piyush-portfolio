@@ -168,14 +168,14 @@ export const Content: ContentType = {
       liveSrc: "https://medium-blog-dh6d.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/Medium-blog",
     },
-    {
-      name: "Startup-validater",
-      description:
-        "Share your project ideas with the world, and get your feedback by peoples",
-      skills: ["Nextjs", "Typescript", "Supabase", "Tailwind", "PostgreSQL"],
+    // {
+      // name: "Startup-validater",
+      // description:
+        // "Share your project ideas with the world, and get your feedback by peoples",
+      // skills: ["Nextjs", "Typescript", "Supabase", "Tailwind", "PostgreSQL"],
       // liveSrc: "https://startup-validater.vercel.app",
-      sourceSrc: "https://github.com/Piyush5784/startup-validater",
-    },
+      // sourceSrc: "https://github.com/Piyush5784/startup-validater",
+    // },
 
     {
       name: "Task-gen - (UD)",
@@ -381,3 +381,4 @@ export const Content: ContentType = {
     },
   ],
 };
+
