@@ -218,13 +218,13 @@ export const Content: ContentType = {
       liveSrc: "https://shoping-cart-redux-vert.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/shopingCart-redux",
     },
-    {
-      name: "Gymer",
-      description: "Gym site for managing membership was my first projects.",
-      skills: ["Reactjs", "Javascript", "Tailwind", "Razorpay"],
+    // {
+      // name: "Gymer",
+      // description: "Gym site for managing membership was my first projects.",
+      // skills: ["Reactjs", "Javascript", "Tailwind", "Razorpay"],
       // liveSrc: "https://gymer-version2-nbbn.vercel.app",
-      sourceSrc: "https://github.com/Piyush5784/GYMER-version2",
-    },
+      // sourceSrc: "https://github.com/Piyush5784/GYMER-version2",
+    // },
   ],
   blogs: [
     {
@@ -381,4 +381,5 @@ export const Content: ContentType = {
     },
   ],
 };
+
 
