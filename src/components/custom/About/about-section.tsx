@@ -24,14 +24,14 @@ export function AboutSection() {
         <p className="text-[25px] font-semibold">{Content.name}</p>
         <ThemeToggler />
       </motion.div>
-      <motion.p
-        className="pt-5"
+      <motion.blockquote
+        className="pt-5 border-l-2 pl-3 italic text-muted-foreground"
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        {Content.introText}
-      </motion.p>
+        “{Content.introText}”
+      </motion.blockquote>
       {Content?.freelanceExp && (
         <motion.p
           className="pt-5"

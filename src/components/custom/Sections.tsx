@@ -23,7 +23,7 @@ const Sections = () => {
         >
           {selected == "blogs" && <Blogs />}
           {selected == "experiences" && <Experiences />}
-          {selected == "PR's" && <PRSections />}
+          {/* {selected == "PR's" && <PRSections />} */}
           {selected == "projects" && <Projects />}
           {selected == "Education" && <Education />}
         </motion.div>

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <div className="flex items-center justify-center flex-col ">
-        <div className="  rounded-lg h-screen">
+        <div className="  rounded-lg h-screen !w-full">
           <div className="flex w-full flex-col md:flex-row gap-5 md:overflow-hidden overflow-scroll h-[100vh] p-5">
             <div className="shadow-lg md:w-[30%] p-5 rounded-xl border  ">
               <AboutSection />

@@ -26,7 +26,7 @@ export function SelectItems() {
                   "flex-1 p-2 text-center cursor-pointer",
                   select === "projects"
                     ? "text-primary font-semibold"
-                    : "text-gray-600"
+                    : "text-gray-600",
                 )}
               >
                 Projects
@@ -37,7 +37,7 @@ export function SelectItems() {
                   "flex-1 p-2 text-center cursor-pointer",
                   select === "experiences"
                     ? "text-primary font-semibold"
-                    : "text-gray-600"
+                    : "text-gray-600",
                 )}
               >
                 Experience
@@ -48,7 +48,7 @@ export function SelectItems() {
                   "flex-1 p-2 text-center cursor-pointer",
                   select === "Education"
                     ? "text-primary font-semibold"
-                    : "text-gray-600"
+                    : "text-gray-600",
                 )}
               >
                 Education
@@ -59,13 +59,13 @@ export function SelectItems() {
                   "flex-1 p-2 text-center cursor-pointer",
                   select === "blogs"
                     ? "text-primary font-semibold"
-                    : "text-gray-600"
+                    : "text-gray-600",
                 )}
               >
                 Blogs
               </div>
 
-              <div
+              {/* <div
                 onClick={() => setSelected("PR's")}
                 className={cn(
                   "flex-1 p-2 text-center cursor-pointer",
@@ -75,7 +75,7 @@ export function SelectItems() {
                 )}
               >
                 PR's
-              </div>
+              </div> */}
 
               {/* Animated border indicator */}
               <motion.div
@@ -100,15 +100,15 @@ export function SelectItems() {
 function dynamicPosition(name: select) {
   switch (name) {
     case "projects":
-      return "3%";
+      return "10%";
     case "experiences":
-      return "85.33%";
+      return "105%";
     case "blogs":
-      return "465.66%";
+      return "540%";
     case "PR's":
       return "705%";
     case "Education":
-      return "220%";
+      return "260%";
   }
 }
 

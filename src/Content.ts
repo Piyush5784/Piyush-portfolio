@@ -5,9 +5,9 @@ import { ContentType } from "./types";
 export const Content: ContentType = {
   name: "Piyush Jha",
   introText:
-    "Hey 👋 I'm Piyush, a passionate full-stack developer focused on building optimized, scalable solutions.",
+    "It's not who I am underneath, but what I do that defines me",
   freelanceExp:
-    "What I like is to make the product as optimized and perfect as possible ",
+    "Coding, debugging, optimizing, improving — any sort of task I've worked on. What I like is making the product as perfect as possible, whether it's frontend, backend, or DevOps — that's why we're called software engineers",
   Resume: {
     show: false,
     href: "",
@@ -72,7 +72,7 @@ export const Content: ContentType = {
     },
     {
       category: "Databases",
-      items: "PostgreSQL, MongoDB, Redis, Dynammo DB",
+      items: "PostgreSQL, MongoDB, Redis, DynamoDB",
     },
     {
       category: "Runtime",
@@ -108,9 +108,9 @@ export const Content: ContentType = {
   ],
   projects: [
     {
-      name: "share-snippets (UD)",
+      name: "Share Snippets + VS code extension",
       description:
-        "Share your pieces of codes, to anyone and import it via vs-extensions",
+        "Share pieces of your code with anyone and import them via a VS Code extension",
       skills: ["Nextjs", "Typescript", "Prisma", "Tailwind"],
       liveSrc: "https://www.share-snippets.site",
       // sourceSrc: "https://github.com/Piyush5784/startup-validater",
@@ -118,7 +118,7 @@ export const Content: ContentType = {
     {
       name: "Workflow Automation ",
       description:
-        "Building some features of n8n, like sending an email including await, telegram, some ai things,",
+        "Building some features of n8n, like sending emails, Telegram messages, and AI-based automations.",
       skills: ["Nextjs", "Typescript", "Prisma", "Tailwind", "Nodejs", "Kafka"],
 
       sourceSrc: "https://github.com/Piyush5784/n8n-clone-v0",
@@ -126,7 +126,7 @@ export const Content: ContentType = {
     {
       name: "NextNotes",
       description:
-        "NextNotes is a full stack note-taking app with rich text editor Editorjs.",
+        "NextNotes is a full-stack note-taking app with a rich text editor, Editor.js.",
       skills: [
         "Nextjs",
         "Typescript",
@@ -145,29 +145,29 @@ export const Content: ContentType = {
       skills: ["Nextjs", "Typescript", "Tailwind"],
       liveSrc: "https://code-screensoft-generator.netlify.app",
     },
-    {
-      name: "Plantify",
-      description:
-        " Plantify is an plants selling application where people can buy favorite plants",
-      skills: ["Nextjs", "Redux Toolkit", "Tailwind", "Shadcn ui", "Next Auth"],
-      liveSrc: "https://plantify-site-7584.netlify.app",
-      sourceSrc: "https://github.com/Piyush5784/Plantify",
-    },
-    {
-      name: "Medium-blog",
-      description:
-        "A blog website tried to make it simpler to Medium, where people can manage blogs.",
-      skills: [
-        "Reactjs",
-        "Typescript",
-        "Tailwind",
-        "Rest API",
-        "Hono",
-        "Cloudflare",
-      ],
-      liveSrc: "https://medium-blog-dh6d.vercel.app",
-      sourceSrc: "https://github.com/Piyush5784/Medium-blog",
-    },
+    // {
+    //   name: "Plantify",
+    //   description:
+    //     "Plantify is a plant-selling application where people can buy their favorite plants.",
+    //   skills: ["Nextjs", "Redux Toolkit", "Tailwind", "Shadcn ui", "Next Auth"],
+    //   liveSrc: "https://plantify-site-7584.netlify.app",
+    //   sourceSrc: "https://github.com/Piyush5784/Plantify",
+    // },
+    // {
+    //   name: "Medium-blog",
+    //   description:
+    //     "A blog website that aims to be simpler than Medium, where people can manage blogs.",
+    //   skills: [
+    //     "Reactjs",
+    //     "Typescript",
+    //     "Tailwind",
+    //     "Rest API",
+    //     "Hono",
+    //     "Cloudflare",
+    //   ],
+    //   liveSrc: "https://medium-blog-dh6d.vercel.app",
+    //   sourceSrc: "https://github.com/Piyush5784/Medium-blog",
+    // },
     // {
       // name: "Startup-validater",
       // description:
@@ -177,47 +177,47 @@ export const Content: ContentType = {
       // sourceSrc: "https://github.com/Piyush5784/startup-validater",
     // },
 
-    {
-      name: "Task-gen - (UD)",
-      description:
-        "A project management tool to manage organisations, projects and tasks.",
-      skills: [
-        "Nextjs",
-        "Typescript",
-        "MongoDb",
-        "Tailwind",
-        "Acernity",
-        "Next Auth",
-      ],
-      // liveSrc: "https://task-gen.netlify.app",
-      sourceSrc: "https://github.com/Piyush5784/TaskGen",
-    },
+    // {
+    //   name: "Task-gen - (UD)",
+    //   description:
+    //     "A project management tool to manage organisations, projects, and tasks.",
+    //   skills: [
+    //     "Nextjs",
+    //     "Typescript",
+    //     "MongoDb",
+    //     "Tailwind",
+    //     "Acernity",
+    //     "Next Auth",
+    //   ],
+    //   // liveSrc: "https://task-gen.netlify.app",
+    //   sourceSrc: "https://github.com/Piyush5784/TaskGen",
+    // },
 
-    {
-      name: "Typing-test",
-      description:
-        "Simple typing test site where users can check their typing speed by writing a quote or paragraph.",
-      skills: ["HTML5", "CSS3", "Javascript"],
-      liveSrc: "https://typing-test-site.pages.dev",
-      sourceSrc: "https://github.com/Piyush5784/Typing-test",
-    },
-    {
-      name: "Gemini-chatBot",
-      description:
-        "Gemini-chatBot is a web app which takes pictures and text and generate responses",
-      skills: ["Reactjs", "Typescript", "Tailwind", "Rest API"],
-      liveSrc: "https://gemini-pro-latest.netlify.app",
-      sourceSrc: "https://github.com/Piyush5784/Gemini-Pro",
-    },
+    // {
+    //   name: "Typing-test",
+    //   description:
+    //     "Simple typing test site where users can check their typing speed by writing a quote or paragraph.",
+    //   skills: ["HTML5", "CSS3", "Javascript"],
+    //   liveSrc: "https://typing-test-site.pages.dev",
+    //   sourceSrc: "https://github.com/Piyush5784/Typing-test",
+    // },
+    // {
+    //   name: "Gemini-chatBot",
+    //   description:
+    //     "Gemini-ChatBot is a web app that takes images and text and generates responses.",
+    //   skills: ["Reactjs", "Typescript", "Tailwind", "Rest API"],
+    //   liveSrc: "https://gemini-pro-latest.netlify.app",
+    //   sourceSrc: "https://github.com/Piyush5784/Gemini-Pro",
+    // },
 
-    {
-      name: "Shopping-Cart",
-      description:
-        "A shopping cart features built for handling Cartitems, favorites items.",
-      skills: ["Reactjs", "Typescript", "CSS", "Redux-toolkit"],
-      liveSrc: "https://shoping-cart-redux-vert.vercel.app",
-      sourceSrc: "https://github.com/Piyush5784/shopingCart-redux",
-    },
+    // {
+    //   name: "Shopping-Cart",
+    //   description:
+    //     "A shopping cart feature built for handling cart items and favorite items.",
+    //   skills: ["Reactjs", "Typescript", "CSS", "Redux-toolkit"],
+    //   liveSrc: "https://shoping-cart-redux-vert.vercel.app",
+    //   sourceSrc: "https://github.com/Piyush5784/shopingCart-redux",
+    // },
     // {
       // name: "Gymer",
       // description: "Gym site for managing membership was my first projects.",
@@ -236,7 +236,7 @@ export const Content: ContentType = {
   landingPage: [
     {
       name: "Sass-t",
-      description: "A sass website template with initial landing page",
+      description: "A SaaS website template with an initial landing page",
       skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
       liveSrc: "https://next-template-rosy.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/next-template",
@@ -244,7 +244,7 @@ export const Content: ContentType = {
     {
       name: "Sass-t(UD)",
       description:
-        "A sass landing page with initial page including authenctication using next-auth.",
+        "A SaaS landing page with an initial page including authentication using NextAuth.",
       skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
       liveSrc: "https://nextjs-template-three-phi.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/nextjs-template",
@@ -260,7 +260,7 @@ export const Content: ContentType = {
     {
       name: "Portfolio",
       description:
-        "A portfolio for showcasing projects for every developer needs",
+        "A portfolio for showcasing projects, built for every developer's needs",
       skills: ["Nextjs", "Typescript", "Tailwind", "Framer-motion"],
       liveSrc: "https://piyush.tech",
       sourceSrc: "https://github.com/Piyush5784/Piyush-portfolio",
@@ -268,7 +268,7 @@ export const Content: ContentType = {
     {
       name: "Jis",
       description:
-        "Jain interior solution is a business in my hometown, which designs interiors for the homes.",
+        "Jain Interior Solution is a business in my hometown that designs interiors for homes.",
       skills: ["Reactjs", "Typescript", "Tailwind", "Framer-motion"],
       liveSrc: "https://jis-home-578434.vercel.app/",
       sourceSrc: "https://github.com/Piyush5784/JisHome",
@@ -276,7 +276,7 @@ export const Content: ContentType = {
     {
       name: "Furniro",
       description:
-        "Furniro is a furniture selling application which sells furnitures for home and offices.",
+        "Furniro is a furniture-selling application that sells furniture for homes and offices.",
       skills: ["Reactjs", "Typescript", "Vanilla CSS", "SCSS"],
       liveSrc: "https://furniro-sable.vercel.app",
       sourceSrc: "https://github.com/Piyush5784/Furniro",
@@ -285,9 +285,33 @@ export const Content: ContentType = {
 
   experiences: [
     {
+      companyName: "Coyax AI",
+      description:
+        "Developed and optimized AI-powered automation platforms for sales and procurement workflows. Built document parsing pipelines, AI agents. Improved application performance, integrated LLM-based features, designed database architectures, and implemented production-ready APIs and workflows.",
+      position: "Founding Full Stack Engineer",
+      skillsIncluded: [
+        "Next.js",
+        "ReactJS",
+        "Typescript",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Prisma",
+        "Redis",
+        "BullMQ",
+        "AWS",
+        "LLM Integration",
+        "AI Agents",
+        "GIT",
+      ],
+      location: "Remote",
+      Date: "Nov 2025 - Present",
+    },
+    {
       companyName: "Clinix Sphere",
       description:
-        " Developing responsive pages using React and Tailwind CSS, build and optimize APIs, and fix platform issues to enhance performance. I also generate structured content to improve usability and engagement.",
+        "Developed responsive pages using React and Tailwind CSS, built and optimized APIs, and fixed platform issues to enhance performance. Also generated structured content to improve usability and engagement.",
       position: "Full Stack Developer",
       skillsIncluded: [
         "ReactJS",
@@ -303,7 +327,7 @@ export const Content: ContentType = {
     {
       companyName: "Maili Enterprise",
       description:
-        " Contract based work for the company, where I was responsible for building the frontend, backend and testing of the site using ReactJs and Tailwind CSS",
+        "Contract-based work for the company, where I was responsible for building the frontend, backend, and testing of the site using ReactJS and Tailwind CSS.",
       position: "Full Stack Developer",
       skillsIncluded: [
         "ReactJS",
@@ -319,7 +343,7 @@ export const Content: ContentType = {
     {
       companyName: "The Monkeys (open source organisation)",
       description:
-        " Actively contributing to the monkeys organization, where focusing on the building and customizing components with shadcn and Editor.js for creating seamlessa and user friendly experiences",
+        "Actively contributing to The Monkeys organization, focusing on building and customizing components with Shadcn and Editor.js to create seamless, user-friendly experiences.",
       position: "Frontend Developer",
       skillsIncluded: ["Nextjs", "Shadcn", "Typescript", "Editorjs"],
       location: "Remote",
@@ -328,7 +352,7 @@ export const Content: ContentType = {
     {
       companyName: "Clamio",
       description:
-        "Developed the scalable backend of the site in Nestjs including authentication, authorization, payment gateway. Used dynamoDb as a database and AWS for deployment",
+        "Developed the scalable backend of the site in Nestjs, including authentication, authorization, and payment gateway. Used DynamoDB as a database and AWS for deployment.",
       position: "Backend Developer Intern",
       skillsIncluded: ["Nestjs", "Dynamodb", "Razorpay", "RBAC"],
       location: "Assam, Ghy",
@@ -346,7 +370,7 @@ export const Content: ContentType = {
   ],
   education: [
     {
-      courseName: "Bachlor in Computer Applications",
+      courseName: "Bachelor in Computer Applications",
       universityName: "Guwahati University",
       years: "2022-2025",
     },
@@ -357,28 +381,7 @@ export const Content: ContentType = {
     },
   ],
   PRS: [
-    {
-      name: "Added a dynamic news page",
-      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/214",
-      merged: true,
-    },
-    {
-      name: "Added Topics Component",
-      merged: true,
-      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/215",
-    },
-    {
-      name: "Added Blog Page",
-      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/216",
-    },
-    {
-      name: "Made a dynamic date-of-birth selector using shadcn-ui",
-      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/220",
-    },
-    {
-      name: "Added a topics dialog had thousand of topics with selector",
-      liveSrc: "https://github.com/the-monkeys/the_monkeys/pull/227",
-    },
+   
   ],
 };
 
