@@ -304,7 +304,7 @@ export const DATA = {
       image:
         "https://res.cloudinary.com/dzf9kamfw/image/upload/v1785879514/Screenshot_from_2026-08-05_03-08-03_tuhbn0.png",
       video:
-        "https://res.cloudinary.com/dzf9kamfw/video/upload/Screencast_from_2026-08-05_03-08-45_wikklw.mp4",
+        "https://res.cloudinary.com/dzf9kamfw/video/upload/v1785883102/cursorful-video-aug5_l7gzcw.mp4",
     },
     {
       title: "CLI Coding Terminal",

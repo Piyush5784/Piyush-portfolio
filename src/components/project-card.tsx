@@ -113,7 +113,7 @@ export function ProjectCard({
               className={cn(
                 "text-xs text-muted-foreground",
                 dates === "Under Development" &&
-                  "text-green-600 dark:text-green-400 font-medium"
+                  "text-green-600 dark:text-green-400 font-medium animate-pulse"
               )}
             >
               {dates}
