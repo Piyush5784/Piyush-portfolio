@@ -138,7 +138,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Software Engineer",
-      logoUrl: "/cl/KI.jpeg",
+      logoUrl: "/cl/Ki.jpeg",
       start: "Jul 2023",
       end: "Dec 2024",
       description:
