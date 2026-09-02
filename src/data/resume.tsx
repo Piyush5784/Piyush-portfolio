@@ -187,7 +187,79 @@ export const DATA = {
       end: "2022",
     },
   ],
-  projects: [
+  projects: [ {
+      title: "Queryon",
+      href: "https://queryon-web.piyushjha5668.workers.dev/",
+      dates: "Under Development",
+      active: false,
+      description:
+        "A desktop database client for Postgres and MySQL, built with Tauri and a Rust native layer.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Tauri",
+        "Rust",
+        "PostgreSQL",
+        "MySQL",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://queryon-web.piyushjha5668.workers.dev/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://res.cloudinary.com/dzf9kamfw/image/upload/v1788368409/Screenshot_from_2026-09-02_22-29-58_fgfbzl.png",
+      video:
+        "https://res.cloudinary.com/dzf9kamfw/video/upload/queryon-demo-1788368408502_c2eeeq.mp4",
+    },
+    {
+      title: "App Builder",
+      href: "https://github.com/Piyush5784/app-builder",
+      dates: "Under Development",
+      active: false,
+      description:
+        "An AI-powered app builder that plans, writes, and runs code in a sandbox, with live preview.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Turborepo",
+        "AWS",
+        "Cloudflare",
+        "CI/CD",
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/Piyush5784/app-builder",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "https://res.cloudinary.com/dzf9kamfw/image/upload/v1785879514/Screenshot_from_2026-08-05_03-08-03_tuhbn0.png",
+      video:
+        "https://res.cloudinary.com/dzf9kamfw/video/upload/v1785883102/cursorful-video-aug5_l7gzcw.mp4",
+    },
+    // {
+    //   title: "CLI Coding Terminal",
+    //   // href: "",
+    //   dates: "Under Development",
+    //   active: false,
+    //   description:
+    //     "A terminal-native coding tool that reads, edits, and runs code through natural conversation.",
+    //   technologies: ["Node.js", "TypeScript"],
+    //   links: [],
+    //   image:
+    //     "https://cdn.terminaltrove.com/m/d93d14de-cad1-4620-b828-08b9f255bd6e.gif",
+    //   video: "",
+    // },
     {
       title: "Share Snippets + VS Code extension",
       href: "https://www.share-snippets.site",
@@ -288,51 +360,6 @@ export const DATA = {
       image: "/projects/screensoft.png",
       video: "",
     },
-    {
-      title: "App Builder",
-      href: "https://github.com/Piyush5784/app-builder",
-      dates: "Under Development",
-      active: false,
-      description:
-        "An AI-powered app builder that plans, writes, and runs code in a sandbox, with live preview.",
-      technologies: [
-        "React",
-        "TypeScript",
-        "PostgreSQL",
-        "Turborepo",
-        "AWS",
-        "Cloudflare",
-        "CI/CD",
-      ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://github.com/Piyush5784/app-builder",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image:
-        "https://res.cloudinary.com/dzf9kamfw/image/upload/v1785879514/Screenshot_from_2026-08-05_03-08-03_tuhbn0.png",
-      video:
-        "https://res.cloudinary.com/dzf9kamfw/video/upload/v1785883102/cursorful-video-aug5_l7gzcw.mp4",
-    },
-    {
-      title: "CLI Coding Terminal",
-      href: "",
-      dates: "Under Development",
-      active: false,
-      description:
-        "A terminal-native coding tool that reads, edits, and runs code through natural conversation.",
-      technologies: ["Node.js", "TypeScript"],
-      links: [],
-      image:
-        "https://cdn.terminaltrove.com/m/d93d14de-cad1-4620-b828-08b9f255bd6e.gif",
-      video: "",
-    },
+   
   ],
 } as const;
