@@ -98,11 +98,17 @@ export const DATA = {
         icon: Icons.x,
         navbar: true,
       },
+      Cal: {
+        name: "Book a call",
+        url: "https://cal.com/piyushkumar/15min",
+        icon: Icons.cal,
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "mailto:piyushjha5668@gmail.com",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
