@@ -215,6 +215,11 @@ export const DATA = {
           href: "https://queryon-web.piyushjha5668.workers.dev/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/Piyush5784/Queryon",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "https://res.cloudinary.com/dzf9kamfw/image/upload/v1788368409/Screenshot_from_2026-09-02_22-29-58_fgfbzl.png",
       video:
@@ -237,11 +242,11 @@ export const DATA = {
         "CI/CD",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+          type: "Website",
+          href: "https://web-builder.space",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/Piyush5784/app-builder",
@@ -361,6 +366,11 @@ export const DATA = {
           type: "Website",
           href: "https://code-screensoft-generator.netlify.app",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Piyush5784/code-screen-soft-generator",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/projects/screensoft.png",
