@@ -104,6 +104,12 @@ export const DATA = {
         icon: Icons.cal,
         navbar: true,
       },
+      ProofOfWork: {
+        name: "Proof of Work",
+        url: "https://swift-porkpie-af0.notion.site/Proof-of-Work-1e0af3c87e1380db8b87de9b8c6de588",
+        icon: Icons.notion,
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "mailto:piyushjha5668@gmail.com",
