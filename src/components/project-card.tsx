@@ -112,7 +112,7 @@ export function ProjectCard({
             <time
               className={cn(
                 "text-xs text-muted-foreground",
-                dates === "Under Development" &&
+                dates === "In Production" &&
                   "text-green-600 dark:text-green-400 font-medium animate-pulse"
               )}
             >

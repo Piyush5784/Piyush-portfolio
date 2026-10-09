@@ -199,11 +199,38 @@ export const DATA = {
       end: "2022",
     },
   ],
-  projects: [ {
+  projects: [
+    {
+      title: "silkui.com",
+      href: "https://silkui.com",
+      dates: "In Production",
+      active: true,
+      description:
+        "A store for premium Next.js landing page templates with three.js scenes and smooth motion, plus sign-in, payments and instant downloads.",
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Three.js",
+        "Cloudflare Workers",
+        "Turborepo",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://silkui.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/projects/silk-ui.jpg",
+      video: "",
+    },
+    {
       title: "Queryon",
       href: "https://queryon-web.piyushjha5668.workers.dev/",
-      dates: "Under Development",
-      active: false,
+      dates: "In Production",
+      active: true,
       description:
         "A desktop database client for Postgres and MySQL, built with Tauri and a Rust native layer.",
       technologies: [
@@ -234,8 +261,8 @@ export const DATA = {
     {
       title: "App Builder",
       href: "https://github.com/Piyush5784/app-builder",
-      dates: "Under Development",
-      active: false,
+      dates: "In Production",
+      active: true,
       description:
         "An AI-powered app builder that plans, writes, and runs code in a sandbox, with live preview.",
       technologies: [
@@ -280,7 +307,7 @@ export const DATA = {
     {
       title: "Share Snippets + VS Code extension",
       href: "https://www.share-snippets.site",
-      dates: "",
+      dates: "In Production",
       active: true,
       description:
         "Share code snippets with anyone and import them into your editor, via the VS Code extension.",
@@ -305,7 +332,7 @@ export const DATA = {
     {
       title: "Workflow Automation",
       href: "https://github.com/Piyush5784/n8n-clone-v0",
-      dates: "",
+      dates: "In Production",
       active: true,
       description:
         "An n8n-inspired workflow builder for sending emails, Telegram DMs, and AI-based automations.",
@@ -331,7 +358,7 @@ export const DATA = {
     {
       title: "NextNotes",
       href: "https://nextnote-nextjs.netlify.app",
-      dates: "",
+      dates: "In Production",
       active: true,
       description:
         "A full-stack note-taking app with a rich text editor and secure auth, built using Editor.js.",
@@ -362,7 +389,7 @@ export const DATA = {
     {
       title: "Code Screensoft",
       href: "https://code-screensoft-generator.netlify.app",
-      dates: "",
+      dates: "In Production",
       active: true,
       description:
         "Generate beautiful, shareable code screenshots with custom themes, backgrounds, and padding.",
